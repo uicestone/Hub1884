@@ -1,0 +1,270 @@
+<?php get_header(); ?>
+<section id="six" class="section swatch-black section-text-shadow section-inner-shadow">
+	<div class="background-media" style="background-image: url('assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	 data-70-top-bottom="background-position:50% -90px">
+	</div>
+	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.4);"></div>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center element-tall-bottom element-tall-top">
+		<img src="assets/images/uploads/vintage.png" alt="omega" data-start="opacity:1" data-center="opacity:1" data-100-top-bottom="opacity:0">
+		</div>
+	</div>
+	</div>
+</section>
+<section id="two" class="section swatch-white">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 ">
+		<header class="text-center element-normal-top element-medium-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
+			<h1 class="normal light bordered bordered-normal">
+			Looking for a template to showcase your work? Look no further, Omega is the theme you are looking for.
+			</h1>
+		</header>
+		<div class="portfolio-container element-medium-top element-normal-bottom">
+			<div class="portfolio masonry " data-padding="1" data-col-xs="1" data-col-sm="3" data-col-md="3" data-col-lg="3" data-layout="fitRows">
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="1" data-title="Coffee and Biscuits">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+				<a href="assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="2" data-title="Cactus Love">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
+				<a href="assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="3" data-title="Colors galore">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
+				<a href="http://www.youtube.com/watch?v=-zOrV-5vh1A" class="figure-image magnific-vimeo" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="4" data-title="Playful mood">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
+				<a href="assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="5" data-title="Vinyl music">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
+				<a href="assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="6" data-title="Summer field">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.5s">
+				<a href="http://vimeo.com/78567595" class="figure-image magnific-vimeo" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="7" data-title="Red coffee">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.8s">
+				<a href="" class="figure-image magnific-gallery" data-links="
+
+				   assets/images/uploads/image-03-normal.jpg,
+
+				   assets/images/uploads/rev-image-20-normal.jpg
+				   " target="_self">
+					<img src="assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="8" data-title="Vintage building">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
+				<a href="assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
+				   " target="_self">
+					<img src="assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="9" data-title="Bluish suit">
+				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.4s">
+				<a href="" class="figure-image magnific-gallery" data-links="
+
+				   assets/images/uploads/image-12-normal.jpg,
+
+				   assets/images/uploads/image-03-normal.jpg,
+
+				   assets/images/uploads/image-10-normal.jpg
+				   " target="_self">
+					<img src="assets/images/uploads/image-12-normal-800x600.jpg" alt="Bluish suit" class="normalwidth">
+					<div class="figure-overlay grid-overlay-20">
+						<div class="figure-overlay-container">
+						<span class="figure-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+						</span>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+</section>
+<section id="six" class="section swatch-black section-text-shadow section-inner-shadow">
+	<div class="background-media" style="background-image: url('assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	 data-70-top-bottom="background-position:50% -90px">
+	</div>
+	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.4);"></div>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+		<div id="slider-flex47" class="flexslider os-animation element-normal-top element-normal-bottom text-center" data-os-animation="fadeInUp" data-os-animation-delay=".1s" data-flex-speed="7000" data-flex-animation="slide" data-flex-directions="hide" data-flex-controls="show"
+			 data-flex-controlsalign="center">
+			<ul class="slides">
+			<li>
+				<blockquote>
+				<p>Chance had strangely favoured Phileas Fogg, for had not the Carnatic been forced to lie over for repairing her boilers, she would have left on the 6th of November, and the passengers for Japan would have
+					been obliged to await for a week the sailing of the next steamer. Mr. Fogg was, it is true, twenty-four hours behind his time; but this could not seriously imperil the remainder of his tour.</p>
+				<footer>
+					Jimmy Doe
+				</footer>
+				</blockquote>
+			</li>
+			<li>
+				<blockquote>
+				<p>The steamer which crossed the Pacific from Yokohama to San Francisco made a direct connection with that from Hong Kong, and it could not sail until the latter reached Yokohama; and if Mr. Fogg was twenty-four
+					hours late on reaching Yokohama, this time would no doubt be easily regained in the voyage of twenty-two days across the Pacific. He found himself, then, about twenty-four hours behind-hand.</p>
+				<footer>
+					Jane Doe
+				</footer>
+				</blockquote>
+			</li>
+			<li>
+				<blockquote>
+				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of
+					her cousin Jeejeeh. He instructed Passepartout to remain at the hotel until his return, that Aouda might not be left entirely alone.</p>
+				<footer>
+					Sam Doe
+				</footer>
+				</blockquote>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	</div>
+</section>
+<section id="two" class="section swatch-white">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 ">
+		<div class="col-md-6">
+			<div class="figure element-normal-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
+			<span class="figure-image">
+				<img src="assets/images/people/image-16-normal.jpg" class="normalwidth" alt="About Me Pic">
+			</span>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<header class="element-tall-top element-short-bottom os-animation not-condensed" data-os-animation="fadeInRight" data-os-animation-delay="0s">
+			<h1 class="big hairline bordered bordered-normal">
+				About me
+			</h1>
+			<p class="lead">
+				On such a little thing my life hung that I often marvel that I escaped so easily. Had not the rifle of the leader of the party swung from its fastenings beside his saddle in such a way as to strike against the butt of his great metal-shod spear I should
+				have snuffed out without ever knowing that death was near me.
+			</p>
+			</header>
+		</div>
+		</div>
+	</div>
+	</div>
+</section>
+<section class="section swatch-black section-text-shadow section-inner-shadow">
+	<div class="background-media" style="background-image: url('assets/images/uploads/image-20-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	 data-70-top-bottom="background-position:50% -90px">
+	</div>
+	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12  text-center">
+		<header class="text-center  element-normal-top element-medium-bottom condensed os-animation" data-os-animation="fadeInDown" data-os-animation-delay="0s">
+			<h1 class="bigger hairline bordered bordered-normal">
+			Welcome to our company. We are a digital design agency passionate about pixel perfection.
+			</h1>
+			<p class="lead">
+			With Omega you get a five star customer support. As with all our themes you will receive our 100% rock solid support and free updates.
+			</p>
+		</header>
+		<a href="http://themeforest.net/item/omega-multi-purpose-bootstrap-html-template/8591628" class="btn btn-link btn-lg element-short-top element-tall-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+			Get it now!
+		</a>
+		</div>
+	</div>
+	</div>
+</section>
+<?php get_footer(); ?>
