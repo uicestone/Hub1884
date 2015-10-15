@@ -25,7 +25,7 @@
 					<div class="menu-sidebar pull-right">
 						<div id="search-4" class="sidebar-widget  widget_search">
 							<div class="top-search">
-								<form role="search" method="get" id="searchform" action="blog-classic.html">
+								<form role="search" method="get" id="searchform" action="<?=site_url()?>">
 									<div class="input-group">
 										<input type="text" value="" name="s" id="s" class="form-control" placeholder="Search">
 										<span class="input-group-btn">
