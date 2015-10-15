@@ -21,12 +21,12 @@
 			<ul class="slides">
 			<li>
 				<figure>
-				<img src="assets/images/uploads/portfolio-slideshow-1-1600x600.jpg" alt="some alt">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/portfolio-slideshow-1-1600x600.jpg" alt="some alt">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/uploads/portfolio-slideshow-2-1600x600.jpg" alt="some alt">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/portfolio-slideshow-2-1600x600.jpg" alt="some alt">
 				</figure>
 			</li>
 			</ul>
@@ -65,7 +65,7 @@
 		</div>
 		<div class="figure element-no-top element-medium-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-04-normal.jpg" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-04-normal.jpg" alt="" class="normalwidth">
 			</span>
 		</div>
 		<div class="row">

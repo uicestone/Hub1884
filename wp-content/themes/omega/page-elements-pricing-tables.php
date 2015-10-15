@@ -19,7 +19,7 @@
 	};
 </script>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>

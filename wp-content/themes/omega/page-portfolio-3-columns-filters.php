@@ -89,7 +89,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
 				<a href="assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -104,7 +104,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 				<a href="assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -119,7 +119,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
 				<a href="http://www.youtube.com/watch?v=-zOrV-5vh1A" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -134,7 +134,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
 				<a href="assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -149,7 +149,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
 				<a href="assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -164,7 +164,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.5s">
 				<a href="http://vimeo.com/78567595" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -183,7 +183,7 @@
 
 				   assets/images/uploads/rev-image-20-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -198,7 +198,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
 				<a href="assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -219,7 +219,7 @@
 
 				   assets/images/uploads/image-10-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-12-normal-800x600.jpg" alt="Bluish suit" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-12-normal-800x600.jpg" alt="Bluish suit" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -240,7 +240,7 @@
 
 				   assets/images/uploads/image-08-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-13-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-13-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -255,7 +255,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="3s">
 				<a href="http://vimeo.com/72523738" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-14-normal-800x600.jpg" alt="Lonely pier" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-14-normal-800x600.jpg" alt="Lonely pier" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -274,7 +274,7 @@
 
 				   assets/images/uploads/image-03-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-20-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-20-normal-800x600.jpg" alt="Summer field" class="normalwidth">
 					<div class="figure-overlay grid-overlay-30">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -292,7 +292,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-intro.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 50%"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-intro.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 50%"
 	 data-70-top-bottom="background-position:50% 70%">
 	</div>
 	<div class="background-overlay grid-overlay-70 "></div>

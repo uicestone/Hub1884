@@ -36,7 +36,7 @@
 		<div class="col-md-6 text-right small-screen-center">
 		<div class="figure element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-22-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-22-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -55,7 +55,7 @@
 		<div class="col-md-6 text-right">
 		<div class="figure  element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -68,7 +68,7 @@
 		<ul class="features-list element-tall-top element-no-bottom features-gray" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/eye-512.png" alt="Eye Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512.png" alt="Eye Icon" class="">
 			</div>
 			<h3>
 				Retina ready
@@ -79,7 +79,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/idea-512.png" alt="Idea Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512.png" alt="Idea Icon" class="">
 			</div>
 			<h3>
 				Solid 100% Support
@@ -90,7 +90,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/imac-512.png" alt="iMac Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512.png" alt="iMac Icon" class="">
 			</div>
 			<h3>
 				Responsive layout
@@ -143,7 +143,7 @@
 		<div class="col-md-6  text-right small-screen-center">
 		<div class="figure  element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-41-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-41-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -167,7 +167,7 @@
 		</header>
 		<div class="figure element-medium-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInUp" data-os-animation-delay=".3s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-21-devices.jpg" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-21-devices.jpg" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>

@@ -21,7 +21,7 @@
 		<div class="col-md-6 text-left">
 		<div class="figure element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle" data-os-animation="fadeInUp" data-os-animation-delay="0.9s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-22-devices.png" alt="some image" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-22-devices.png" alt="some image" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -43,7 +43,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#7b569f;">
-					<img class="" src="assets/images/icons/indicator-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/indicator-512w.png" alt="a clock" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -59,7 +59,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#7b569f;">
-					<img class="" src="assets/images/icons/list-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/list-512w.png" alt="a gift" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -75,7 +75,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#7b569f;">
-					<img class="" src="assets/images/icons/wrench-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/wrench-512w.png" alt="a support" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -91,7 +91,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#7b569f;">
-					<img class="" src="assets/images/icons/gift-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/gift-512w.png" alt="a clock" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -119,7 +119,7 @@
 		<div class="col-md-6 text-right">
 		<div class="figure  element-no-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -127,7 +127,7 @@
 		<ul class="features-list element-tall-top element-no-bottom features-blue" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
 			</div>
 			<h3>
 				Retina ready
@@ -138,7 +138,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
 			</div>
 			<h3>
 				Solid 100% Support
@@ -149,7 +149,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
 			</div>
 			<h3>
 				Responsive layout

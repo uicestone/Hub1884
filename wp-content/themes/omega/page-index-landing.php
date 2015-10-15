@@ -39,7 +39,7 @@
 		<div class="col-md-6 text-left">
 		<div class="figure element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle" data-os-animation="fadeInUp" data-os-animation-delay="0.9s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-22-devices.png" alt="some image" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-22-devices.png" alt="some image" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -61,7 +61,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#7b569f;">
-					<img class="" src="assets/images/icons/indicator-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/indicator-512w.png" alt="a clock" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -77,7 +77,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#d64541;">
-					<img class="" src="assets/images/icons/list-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/list-512w.png" alt="a gift" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -93,7 +93,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#1ba39c;">
-					<img class="" src="assets/images/icons/wrench-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/wrench-512w.png" alt="a support" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -109,7 +109,7 @@
 				<div class="box box-round box-medium box-simple element-medium-top element-short-bottom">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#d35400;">
-					<img class="" src="assets/images/icons/gift-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/gift-512w.png" alt="a clock" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -131,7 +131,7 @@
 		<div class="col-md-6 text-right">
 		<div class="figure  element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -144,7 +144,7 @@
 		<ul class="features-list element-tall-top element-no-bottom features-blue" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
 			</div>
 			<h3>
 				Retina ready
@@ -155,7 +155,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
 			</div>
 			<h3>
 				Solid 100% Support
@@ -166,7 +166,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
 			</div>
 			<h3>
 				Responsive layout
@@ -195,7 +195,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-17-normal-150x150.jpg" alt="Jimmy Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-17-normal-150x150.jpg" alt="Jimmy Doe" />
 				</div>
 				</div>
 				<p>Chance had strangely favoured Phileas Fogg, for had not the Carnatic been forced to lie over for repairing her boilers, she would have left on the 6th of November, and the passengers for Japan would have been
@@ -210,7 +210,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-16-normal-150x150.jpg" alt="Jane Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal-150x150.jpg" alt="Jane Doe" />
 				</div>
 				</div>
 				<p>The steamer which crossed the Pacific from Yokohama to San Francisco made a direct connection with that from Hong Kong, and it could not sail until the latter reached Yokohama; and if Mr. Fogg was twenty-four
@@ -225,7 +225,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-15-normal-150x150.jpg" alt="Sam Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal-150x150.jpg" alt="Sam Doe" />
 				</div>
 				</div>
 				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of her
@@ -240,7 +240,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-37-normal-150x150.jpg" alt="Chris Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-37-normal-150x150.jpg" alt="Chris Doe" />
 				</div>
 				</div>
 				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of her

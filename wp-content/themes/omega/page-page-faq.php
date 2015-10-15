@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -132,7 +132,7 @@
 		<div class="col-md-6">
 			<div class="figure element-no-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInUp" data-os-animation-delay=".1s">
 			<span class="figure-image">
-				<img src="assets/images/uploads/image-40-devices.png" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" class="normalwidth">
 			</span>
 			</div>
 		</div>
@@ -141,7 +141,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -201,7 +201,7 @@
 		<div class="col-md-6 ">
 			<div class="figure element-short-top element-no-bottom os-animation text-center normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
 			<span class="figure-image">
-				<img src="assets/images/uploads/image-22-devices.png" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-22-devices.png" alt="" class="normalwidth">
 			</span>
 			</div>
 		</div>
@@ -279,7 +279,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>

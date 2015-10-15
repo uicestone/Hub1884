@@ -52,7 +52,7 @@
 		</header>
 		<div class="figure  element-short-top element-short-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle normalwidth animated fadeInUp" data-os-animation="fadeInUp" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-21-devices.jpg" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-21-devices.jpg" class="normalwidth">
 			</span>
 		</div>
 		<div class="row">

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-05-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -180px">
 	</div>
 	<div class="background-overlay grid-overlay-20 " style="background-color: rgba(0,0,0,0.4);"></div>
@@ -86,7 +86,7 @@
 </section>
   	</article>
 </div>
-<script src="assets/js/packages.min.js"></script>
-<script src="assets/js/theme.min.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/assets/js/packages.min.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/assets/js/theme.min.js"></script>
 </body>
 </html>

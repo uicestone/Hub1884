@@ -19,7 +19,7 @@
 	};
 </script>
 <section id="s2" class="section swatch-black section-text-shadow section-fullheight">
-	<div class="background-media" style="background-image: url('assets/images/uploads/section-2.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/section-2.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -80px">
 	</div>
 	<div class="container">
@@ -60,7 +60,7 @@
 				<div class="box box-round box-big element-normal-top element-short-bottom os-animation">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#e9e9e9;">
-					<img class="" src="assets/images/uploads/image-46-500x500.jpg" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-46-500x500.jpg" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -76,7 +76,7 @@
 				<div class="box box-round box-big element-normal-top element-short-bottom os-animation">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#e9e9e9;">
-					<img class="" src="assets/images/uploads/image-47-500x500.jpg" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-47-500x500.jpg" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -92,7 +92,7 @@
 				<div class="box box-round box-big element-normal-top element-short-bottom os-animation">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#e9e9e9;">
-					<img class="" src="assets/images/uploads/image-48-500x500.jpg" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-48-500x500.jpg" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -118,7 +118,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in from-bottom image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
 				<a href="assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -133,7 +133,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 				<a href="assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -148,7 +148,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
 				<a href="http://www.youtube.com/watch?v=-zOrV-5vh1A" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -163,7 +163,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
 				<a href="assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -178,7 +178,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
 				<a href="assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -193,7 +193,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.5s">
 				<a href="http://vimeo.com/78567595" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -212,7 +212,7 @@
 
 				   assets/images/uploads/rev-image-20-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -227,7 +227,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
 				<a href="assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -248,7 +248,7 @@
 
 				   assets/images/uploads/image-10-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-12-normal-800x600.jpg" alt="Bluish suit" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-12-normal-800x600.jpg" alt="Bluish suit" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -269,7 +269,7 @@
 
 				   assets/images/uploads/image-08-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-13-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-13-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -284,7 +284,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale from-bottom fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="3s">
 				<a href="http://vimeo.com/72523738" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-14-normal-800x600.jpg" alt="Lonely pier" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-14-normal-800x600.jpg" alt="Lonely pier" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -303,7 +303,7 @@
 
 				   assets/images/uploads/image-03-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-20-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-20-normal-800x600.jpg" alt="Summer field" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 						<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -327,7 +327,7 @@
 		<ul class="features-list element-tall-top element-no-bottom features-dark" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/idea-512w.png" alt="Eye Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Eye Icon" class="">
 			</div>
 			<h3>
 				Bright ideas
@@ -338,7 +338,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/heart-512w.png" alt="Idea Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/heart-512w.png" alt="Idea Icon" class="">
 			</div>
 			<h3>
 				Passionate work
@@ -349,7 +349,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/pencil-512w.png" alt="iMac Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/pencil-512w.png" alt="iMac Icon" class="">
 			</div>
 			<h3>
 				Custom design
@@ -364,7 +364,7 @@
 		<ul class="features-list element-tall-top element-no-bottom features-dark" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
 			</div>
 			<h3>
 				Retina ready
@@ -375,7 +375,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
 			</div>
 			<h3>
 				Solid 100% Support
@@ -386,7 +386,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
 			</div>
 			<h3>
 				Responsive layout
@@ -401,7 +401,7 @@
 	</div>
 </section>
 <section id="six" class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -90px">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.4);"></div>
@@ -460,7 +460,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-17-normal-150x150.jpg" alt="Jimmy Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-17-normal-150x150.jpg" alt="Jimmy Doe" />
 				</div>
 				</div>
 				<p>Chance had strangely favoured Phileas Fogg, for had not the Carnatic been forced to lie over for repairing her boilers, she would have left on the 6th of November, and the passengers for Japan would have been
@@ -475,7 +475,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-16-normal-150x150.jpg" alt="Jane Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal-150x150.jpg" alt="Jane Doe" />
 				</div>
 				</div>
 				<p>The steamer which crossed the Pacific from Yokohama to San Francisco made a direct connection with that from Hong Kong, and it could not sail until the latter reached Yokohama; and if Mr. Fogg was twenty-four
@@ -490,7 +490,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-15-normal-150x150.jpg" alt="Sam Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal-150x150.jpg" alt="Sam Doe" />
 				</div>
 				</div>
 				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of her
@@ -505,7 +505,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-37-normal-150x150.jpg" alt="Chris Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-37-normal-150x150.jpg" alt="Chris Doe" />
 				</div>
 				</div>
 				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of her
@@ -521,7 +521,7 @@
 	</div>
 </section>
 <section id="eight" class="section swatch-black section-inner-shadow section-text-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-50-1200x800.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-50-1200x800.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -150px">
 	</div>
 	<div class="background-overlay grid-overlay-0 " style="background-color: rgba(0,0,0,0.4);"></div>

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-20-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-20-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -90px">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>

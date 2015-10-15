@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-08-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 40%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 40%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -24,7 +24,7 @@
 			<div class="post-media">
 			<div class="figure  element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 				<a class="figure-image" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-08-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg">
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -73,7 +73,7 @@
 			<div class="post-media">
 			<div class="figure  element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 				<a class="figure-image" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-02-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal.jpg">
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -121,7 +121,7 @@
 			<div class="post-media">
 			<div class="figure  element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 				<a class="figure-image" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-03-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg">
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -188,12 +188,12 @@
 				<ul class="slides">
 				<li>
 					<figure>
-					<img src="assets/images/uploads/image-12-normal.jpg" alt="some alt">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-12-normal.jpg" alt="some alt">
 					</figure>
 				</li>
 				<li>
 					<figure>
-					<img src="assets/images/uploads/image-04-normal.jpg" alt="some alt">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-04-normal.jpg" alt="some alt">
 					</figure>
 				</li>
 				</ul>
@@ -256,7 +256,7 @@
 			<div class="post-media">
 			<div class="figure  element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 				<a class="figure-image" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-09-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal.jpg">
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">

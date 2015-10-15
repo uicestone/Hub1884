@@ -7,15 +7,15 @@
 			<div class="tp-banner">
 			<ul>
 				<li data-transition="fade" data-slotamount="4" data-link="http://themeforest.net/item/omega-multi-purpose-bootstrap-html-template/8591628">
-				<img src="assets/images/uploads/rev-slider-bg1.jpg" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg1.jpg" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
 				<div class="tp-caption sfl" data-x="80" data-y="70" data-speed="800" data-start="900" data-easing="easeInBack">
-					<img src="assets/images/uploads/slide-1-dev-2.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-2.png">
 				</div>
 				<div class="tp-caption sfr" data-x="120" data-y="70" data-speed="800" data-start="1500" data-easing="easeInBack">
-					<img src="assets/images/uploads/slide-1-dev-3.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-3.png">
 				</div>
 				<div class="tp-caption sfb" data-x="100" data-y="60" data-speed="1200" data-start="2000" data-easing="easeInBack">
-					<img src="assets/images/uploads/slide-1-dev-center.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-center.png">
 				</div>
 				<div class="tp-caption sfl bigger hairline" data-x="120" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c;">
 					Flexible & Responsive
@@ -28,18 +28,18 @@
 				</div>
 				</li>
 				<li data-transition="boxslide" data-slotamount="4" data-link="http://themeforest.net/item/omega-multi-purpose-bootstrap-html-template/8591628">
-				<img src="assets/images/uploads/rev-slider-bg2.jpg">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg2.jpg">
 				<div class="caption sfl" data-x="80" data-y="40" data-speed="600" data-start="1500" data-easing="easeInBack">
-					<img src="assets/images/uploads/slide-2-dev-2.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-2.png">
 				</div>
 				<div class="caption sfr" data-x="-100" data-y="40" data-speed="600" data-start="2000" data-easing="easeInBack">
-					<img src="assets/images/uploads/slide-2-dev-3.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-3.png">
 				</div>
 				<div class="caption lfb fadeout" data-x="45" data-y="55" data-speed="1000" data-endspeed="1200" data-start="3500" d data-easing="easeInBack">
-					<img src="assets/images/uploads/slide-2-dev-center.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-center.png">
 				</div>
 				<div class="caption fade" data-x="-8" data-y="20" data-speed="300" data-start="6000" data-easing="Power4.easeOutCubic">
-					<img src="assets/images/uploads/slide-2-dev-center-big.png">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-center-big.png">
 				</div>
 				<div class="caption sfb stt super hairline" data-x="750" data-y="180" data-speed="400" data-endspeed="400" data-start="2000" data-end="4000" data-easing="easeInBack" style="color:#fff">
 					hi there
@@ -79,7 +79,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/indicator-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/indicator-512w.png" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -95,7 +95,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/gift-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/gift-512w.png" alt="a gift" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -111,7 +111,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/lifebuoy-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/lifebuoy-512w.png" alt="a support" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -127,7 +127,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/map-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/map-512w.png" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -157,9 +157,9 @@
 			<div class="portfolio masonry " data-padding="2" data-col-xs="2" data-col-sm="3" data-col-md="4" data-col-lg="4" data-layout="fitRows">
 			<div class="masonry-item portfolio-item isotope-item" data-menu-order="1" data-title="Coffee and Biscuits">
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
-				<a href="assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
+					<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -172,9 +172,9 @@
 			</div>
 			<div class="masonry-item portfolio-item isotope-item" data-menu-order="2" data-title="Cactus Love">
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
-				<a href="assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
+				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -189,7 +189,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
 				<a href="http://www.youtube.com/watch?v=-zOrV-5vh1A" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -202,9 +202,9 @@
 			</div>
 			<div class="masonry-item portfolio-item isotope-item" data-menu-order="4" data-title="Playful mood">
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
-				<a href="assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
+				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -217,9 +217,9 @@
 			</div>
 			<div class="masonry-item portfolio-item isotope-item" data-menu-order="5" data-title="Vinyl music">
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
-				<a href="assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
+				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -234,7 +234,7 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.5s">
 				<a href="http://vimeo.com/78567595" class="figure-image magnific-vimeo" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -249,11 +249,11 @@
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.8s">
 				<a href="" class="figure-image magnific-gallery" data-links="
 
-				   assets/images/uploads/image-03-normal.jpg,
+				   <?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg,
 
-				   assets/images/uploads/rev-image-20-normal.jpg
+				   <?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-image-20-normal.jpg
 				   " target="_self">
-					<img src="assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -266,9 +266,9 @@
 			</div>
 			<div class="masonry-item portfolio-item isotope-item" data-menu-order="8" data-title="Vintage building">
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
-				<a href="assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
+				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
 				   " target="_self">
-					<img src="assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -298,7 +298,7 @@
 		<div class="col-md-6">
 		<div class="figure element-short-top element-short-bottom os-animation image-filter-none image-filter-onhover text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -306,7 +306,7 @@
 		<ul class="features-list element-tall-top element-no-bottom features-dark" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
 			</div>
 			<h3>
 				Retina ready
@@ -317,7 +317,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
 			</div>
 			<h3>
 				Solid 100% Support
@@ -328,7 +328,7 @@
 			</li>
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon">
-				<img src="assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
 			</div>
 			<h3>
 				Responsive layout
@@ -372,7 +372,7 @@
 			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s">
 			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
 				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
 				<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 					<span class="figure-icon">
@@ -410,7 +410,7 @@
 			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".2s">
 			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
 				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="assets/images/people/image-17-normal1.jpg" alt="Jim Doe" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-17-normal1.jpg" alt="Jim Doe" class="normalwidth">
 				<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 					<span class="figure-icon">
@@ -443,7 +443,7 @@
 			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s">
 			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
 				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
 				<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 					<span class="figure-icon">
@@ -495,7 +495,7 @@
 		</header>
 		<div class=" row element-short-top element-normal-bottom recent-simple-os-container">
 			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(assets/images/uploads/image-08-normal-300x200.jpg)">
+			<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-300x200.jpg)">
 				<h4>
 				<a href="blog-post.html">
 					The beauty of the world.
@@ -507,7 +507,7 @@
 			</article>
 			</div>
 			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(assets/images/uploads/image-02-normal-300x200.jpg)">
+				<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-300x200.jpg)">
 				<h4>
 				<a href="blog-post.html">
 					Colors are the smiles of nature.
@@ -519,7 +519,7 @@
 			</article>
 			</div>
 			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(assets/images/uploads/image-03-normal-300x200.jpg)">
+			<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-300x200.jpg)">
 				<h4>
 				<a href="blog-post.html">
 					Coffee is a language in itself.
@@ -531,7 +531,7 @@
 			</article>
 			</div>
 			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(assets/images/uploads/image-09-normal-300x200.jpg)">
+			<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-300x200.jpg)">
 				<h4>
 				<a href="blog-post.html">
 					Do Lipton employees take coffee breaks?
@@ -556,37 +556,37 @@
 			<ul class="slides">
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-27-client.png" alt="some alt" data-original-title="RocketPunch" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-27-client.png" alt="some alt" data-original-title="RocketPunch" data-toggle="tooltip">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-28-client.png" alt="some alt" data-original-title="ThemeArt" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-28-client.png" alt="some alt" data-original-title="ThemeArt" data-toggle="tooltip">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-29-client.png" alt="some alt" data-original-title="Showbiz" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-29-client.png" alt="some alt" data-original-title="Showbiz" data-toggle="tooltip">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-30-client.png" alt="some alt" data-original-title="Nut Themes" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-30-client.png" alt="some alt" data-original-title="Nut Themes" data-toggle="tooltip">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-31-client.png" alt="some alt" data-original-title="Glory Themes" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-31-client.png" alt="some alt" data-original-title="Glory Themes" data-toggle="tooltip">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-32-client.png" alt="some alt" data-original-title="Guitar Plants" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-32-client.png" alt="some alt" data-original-title="Guitar Plants" data-toggle="tooltip">
 				</figure>
 			</li>
 			<li>
 				<figure>
-				<img src="assets/images/clients/image-33-client.png" alt="some alt" data-original-title="Ninja Turtle" data-toggle="tooltip">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-33-client.png" alt="some alt" data-original-title="Ninja Turtle" data-toggle="tooltip">
 				</figure>
 			</li>
 			</ul>
@@ -595,4 +595,43 @@
 	</div>
 	</div>
 </section>
+<script type="text/javascript">
+jQuery(document).ready(function()
+{
+	jQuery('.tp-banner').show().revolution(
+	{
+		delay: 8000,
+		startwidth: 1170,
+		startheight: 480,
+		onHoverStop: "on", // Stop Banner Timer at Hover on Slide on/off
+		thumbWidth: 100, // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+		thumbHeight: 50,
+		thumbAmount: 3,
+		hideThumbs: 0,
+		navigationType: "bullet", // bullet, thumb, none
+		navigationArrows: "solo", // nexttobullets, solo (old name verticalcentered), none
+		navigationStyle: "round", // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+		navigationHAlign: "center", // Vertical Align top,center,bottom
+		navigationVAlign: "bottom", // Horizontal Align left,center,right
+		navigationHOffset: 0,
+		navigationVOffset: 20,
+		soloArrowLeftHalign: "left",
+		soloArrowLeftValign: "center",
+		soloArrowLeftHOffset: 20,
+		soloArrowLeftVOffset: 0,
+		soloArrowRightHalign: "right",
+		soloArrowRightValign: "center",
+		soloArrowRightHOffset: 20,
+		soloArrowRightVOffset: 0,
+		touchenabled: "on", // Enable Swipe Function : on/off
+		stopAtSlide: -1, // Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+		stopAfterLoops: -1, // Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+		hideCaptionAtLimit: 0, // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+		hideAllCaptionAtLilmit: 0, // Hide all The Captions if Width of Browser is less then this value
+		hideSliderAtLimit: 0, // Hide the whole slider, and stop also functions if Width of Browser is less than this value
+		fullWidth: "on",
+		shadow: 0
+	});
+});
+</script>  
 <?php get_footer(); ?>

@@ -39,7 +39,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/indicator-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/indicator-512w.png" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -55,7 +55,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/gift-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/gift-512w.png" alt="a gift" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -71,7 +71,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/lifebuoy-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/lifebuoy-512w.png" alt="a support" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -87,7 +87,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/map-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/map-512w.png" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -191,7 +191,7 @@
 		</header>
 		<div class="figure  element-short-top element-medium-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-25-infographic.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-25-infographic.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>

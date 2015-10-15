@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -29,7 +29,7 @@
 			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s">
 			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
 				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -67,7 +67,7 @@
 			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".2s">
 			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
 				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="assets/images/people/image-17-normal1.jpg" alt="Jim Doe" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-17-normal1.jpg" alt="Jim Doe" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -100,7 +100,7 @@
 			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s">
 			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
 				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
 					<div class="figure-overlay grid-overlay-20">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -141,7 +141,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -202,7 +202,7 @@
 			<div class="col-md-6">
 			<div class="figure element-no-top element-short-bottom os-animation image-filter-none image-filter-onhover text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
 				<span class="figure-image">
-				<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 				</span>
 			</div>
 			</div>
@@ -210,7 +210,7 @@
 			<ul class="features-list element-tall-top element-no-bottom features-dark" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 				<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<div class="features-list-icon">
-					<img src="assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
 				</div>
 				<h3>
 					Retina ready
@@ -221,7 +221,7 @@
 				</li>
 				<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<div class="features-list-icon">
-					<img src="assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
 				</div>
 				<h3>
 					Solid 100% Support
@@ -232,7 +232,7 @@
 				</li>
 				<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<div class="features-list-icon">
-					<img src="assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
 				</div>
 				<h3>
 					Responsive layout
@@ -249,7 +249,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -342,7 +342,7 @@
 		<div class="col-md-6  text-default small-screen-default">
 		<div class="figure  element-no-top element-medium-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-41-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-41-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -384,7 +384,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-07-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:" data-70-top-bottom="background-position:">
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:" data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-70 "></div>
 	<div class="container">

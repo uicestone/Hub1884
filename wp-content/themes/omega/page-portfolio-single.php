@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black  section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-03-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -22,7 +22,7 @@
 		<div class="col-md-12  text-center">
 		<div class="figure  element-medium-top element-short-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle normalwidth" data-os-animation="fadeInUp" data-os-animation-delay="0.1s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-21-devices.jpg" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-21-devices.jpg" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="figure element-no-top element-short-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle normalwidth" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<span class="figure-image">
-				<img src="assets/images/uploads/image-03-normal.jpg" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg" alt="" class="normalwidth">
 				</span>
 			</div>
 			<div class="element-no-top element-no-bottom os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
@@ -60,7 +60,7 @@
 			</div>
 			<div class="figure element-no-top element-short-bottom os-animation image-filter-none image-filter-onhover fade-none text-center figcaption-middle normalwidth" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<span class="figure-image">
-				<img src="assets/images/uploads/image-12-normal.jpg" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-12-normal.jpg" alt="" class="normalwidth">
 				</span>
 			</div>
 			<div class="element-no-top element-normal-bottom os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
@@ -76,7 +76,7 @@
 	</div>
 </section>
 <section class="section swatch-black  section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-03-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>

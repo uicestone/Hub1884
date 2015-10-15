@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/rev-corporate.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-corporate.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -180px">
 	</div>
 	<div class="container">
@@ -107,7 +107,7 @@
 		<div class="col-md-6 element-tall-top">
 		<div class="figure  element-tall-top element-short-bottom os-animation image-filter-none image-filter-onhover text-center figcaption-middle normalwidth" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -143,7 +143,7 @@
 				<div class="box box-round box-normal box-simple">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#a1cdf1;">
-					<img class="" src="assets/images/icons/indicator-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/indicator-512w.png" alt="a clock" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -159,7 +159,7 @@
 				<div class="box box-round box-normal box-simple">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#a1cdf1;">
-					<img class="" src="assets/images/icons/gift-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/gift-512w.png" alt="a gift" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -175,7 +175,7 @@
 				<div class="box box-round box-normal box-simple">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#a1cdf1;">
-					<img class="" src="assets/images/icons/lifebuoy-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/lifebuoy-512w.png" alt="a support" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -191,7 +191,7 @@
 				<div class="box box-round box-normal box-simple">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#a1cdf1;">
-					<img class="" src="assets/images/icons/map-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/map-512w.png" alt="a clock" />
 				</a>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -239,7 +239,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-17-normal-150x150.jpg" alt="Jimmy Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-17-normal-150x150.jpg" alt="Jimmy Doe" />
 				</div>
 				</div>
 				<p>Chance had strangely favoured Phileas Fogg, for had not the Carnatic been forced to lie over for repairing her boilers, she would have left on the 6th of November, and the passengers for Japan would have been
@@ -254,7 +254,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-16-normal-150x150.jpg" alt="Jane Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal-150x150.jpg" alt="Jane Doe" />
 				</div>
 				</div>
 				<p>The steamer which crossed the Pacific from Yokohama to San Francisco made a direct connection with that from Hong Kong, and it could not sail until the latter reached Yokohama; and if Mr. Fogg was twenty-four
@@ -269,7 +269,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-15-normal-150x150.jpg" alt="Sam Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal-150x150.jpg" alt="Sam Doe" />
 				</div>
 				</div>
 				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of her
@@ -284,7 +284,7 @@
 				<div class="box box-small box-round">
 				<div class="box-dummy"></div>
 				<div class="box-inner " style="background-color:;">
-					<img class="" src="assets/images/people/image-37-normal-150x150.jpg" alt="Chris Doe" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-37-normal-150x150.jpg" alt="Chris Doe" />
 				</div>
 				</div>
 				<p>On landing, he conducted her to a palanquin, in which they repaired to the Club Hotel. A room was engaged for the young woman, and Mr. Fogg, after seeing that she wanted for nothing, set out in search of her
@@ -309,7 +309,7 @@
 			</h1>
 		</header>
 		<span class="figure-image">
-			<img src="assets/images/uploads/image-25-infographic.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-25-infographic.png" alt="" class="normalwidth">
 		</span>
 		</div>
 	</div>

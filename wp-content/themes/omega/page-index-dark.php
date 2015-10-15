@@ -47,7 +47,7 @@
 						<div class="box box-round box-normal box-simple element-medium-top element-short-bottom os-animation">
 							<div class="box-dummy"></div>
 							<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#000000;">
-							<img class="" src="assets/images/icons/star-512w.png" alt="a clock" />
+							<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/star-512w.png" alt="a clock" />
 							</a>
 						</div>
 						<h3 class="normal bold bordered bordered-small ">
@@ -63,7 +63,7 @@
 						<div class="box box-round box-normal box-simple">
 							<div class="box-dummy"></div>
 							<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#000000;">
-							<img class="" src="assets/images/icons/iphone-512w.png" alt="a phone" />
+							<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/iphone-512w.png" alt="a phone" />
 							</a>
 						</div>
 						<h3 class="normal bold bordered bordered-small ">
@@ -79,7 +79,7 @@
 						<div class="box box-round box-normal box-simple">
 							<div class="box-dummy"></div>
 							<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#000000;">
-							<img class="" src="assets/images/icons/lifebuoy-512w.png" alt="a support" />
+							<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/lifebuoy-512w.png" alt="a support" />
 							</a>
 						</div>
 						<h3 class="normal bold bordered bordered-small ">
@@ -95,7 +95,7 @@
 						<div class="box box-round box-normal box-simple">
 							<div class="box-dummy"></div>
 							<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#000000;">
-							<img class="" src="assets/images/icons/map-512w.png" alt="a map" />
+							<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/map-512w.png" alt="a map" />
 							</a>
 						</div>
 						<h3 class="normal bold bordered bordered-small ">
@@ -126,7 +126,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="0s">
 							<a href="assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -141,7 +141,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
 							<a href="assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -156,7 +156,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
 							<a href="http://www.youtube.com/watch?v=-zOrV-5vh1A" class="figure-image magnific-vimeo" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -171,7 +171,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
 							<a href="assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -186,7 +186,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
 							<a href="assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -201,7 +201,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="1.5s">
 							<a href="http://vimeo.com/78567595" class="figure-image magnific-vimeo" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -220,7 +220,7 @@
 
 							   assets/images/uploads/rev-image-20-normal.jpg
 							   " target="_self">
-							<img src="assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -235,7 +235,7 @@
 						<div class="figure element-no-top element-no-bottom portfolio-os-animation image-filter-grayscale image-filter-invert fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
 							<a href="assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
 							   " target="_self">
-							<img src="assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
+							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
 								<div class="figure-overlay grid-overlay-20">
 								<div class="figure-overlay-container">
 									<span class="figure-icon">
@@ -263,7 +263,7 @@
 					</header>
 					<div class="figure element-short-top element-short-bottom os-animation image-filter-none image-filter-onhover text-center" data-os-animation="fadeInUp" data-os-animation-delay="0s" style="-webkit-animation: 0s;">
 					<span class="figure-image">
-						<img src="assets/images/uploads/image-25-devices.png" class="normalwidth" alt="Device Image">
+						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-25-devices.png" class="normalwidth" alt="Device Image">
 					</span>
 					</div>
 					<div class="row ">

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-blue section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-02-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-20 " style="background-color: rgba(0,0,0,0.4);"></div>
@@ -35,7 +35,7 @@
 		<div class="col-md-4">
 			<div class="figure hidden-xs hidden-sm element-short-top element-tall-bottom os-animation text-center" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">
 			<span class="figure-image">
-				<img src="assets/images/uploads/image-34-animated.gif" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-34-animated.gif" alt="" class="normalwidth">
 			</span>
 			</div>
 		</div>
@@ -62,7 +62,7 @@
 		<div class="col-md-4">
 			<div class="figure hidden-xs hidden-sm element-short-top element-tall-bottom os-animation text-center" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">
 			<span class="figure-image">
-				<img src="assets/images/uploads/image-35-animated.gif" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-35-animated.gif" alt="" class="normalwidth">
 			</span>
 			</div>
 		</div>
@@ -89,7 +89,7 @@
 		<div class="col-md-4">
 			<div class="figure hidden-xs hidden-sm element-short-top element-tall-bottom os-animation text-center" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">
 			<span class="figure-image">
-				<img src="assets/images/uploads/image-36-animated.gif" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-36-animated.gif" alt="" class="normalwidth">
 			</span>
 			</div>
 		</div>
@@ -98,7 +98,7 @@
 	</div>
 </section>
 <section class="section swatch-blue section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-02-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-20 " style="background-color: rgba(0,0,0,0.4);"></div>

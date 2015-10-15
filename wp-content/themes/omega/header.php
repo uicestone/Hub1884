@@ -5,18 +5,7 @@
 		<title><?php wp_title('&raquo;', true, 'left'); ?><?php bloginfo('sitename'); ?></title>
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
 		<meta content="yes" name="apple-mobile-web-app-capable">
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/theme.min.css">
-		<link rel="stylesheet" href="assets/css/color-defaults.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-white.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-blue.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-gray.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-black.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-white-black.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-white-green.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/swatch-white-red.min.css" media="screen">
-		<link rel="stylesheet" href="assets/css/fonts.min.css" media="screen">
+		<?php wp_head(); ?>
 	</head>
 	<body class="normal-header pace-on pace-counter">
 		<div class="pace-overlay"></div>
@@ -29,7 +18,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a href="index.html" class="navbar-brand">
-						<img src="assets/images/omega.gif" alt="One of the best themes ever">Omega
+						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/omega.gif" alt="One of the best themes ever">Omega
 					</a>
 				</div>
 				<nav class="collapse navbar-collapse main-navbar" role="navigation">

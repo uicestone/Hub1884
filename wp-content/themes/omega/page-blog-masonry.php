@@ -19,7 +19,7 @@
 	};
 </script>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-08-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 40%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 40%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -35,7 +35,7 @@
 			<article class="post-masonry masonry-item masonry-wide isotope-item" data-menu-order="0">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-08-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					The beauty of the world.
@@ -53,7 +53,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="1">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-02-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Colors are the smiles of nature.
@@ -71,7 +71,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="2">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-03-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Coffee is a language in itself.
@@ -102,7 +102,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="4">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-12-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-12-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					I’m really not good at being glamorous.
@@ -120,7 +120,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="5">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-10-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Good design is really good business.
@@ -138,7 +138,7 @@
 			<article class="post-masonry masonry-item masonry-wide isotope-item" data-menu-order="6">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-09-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Do Lipton employees take coffee breaks?
@@ -156,7 +156,7 @@
 			<article class="post-masonry masonry-item masonry-wide isotope-item" data-menu-order="7">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-07-wide.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-wide.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Sounds better when it’s vinyl.
@@ -174,7 +174,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="8">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-06-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					There are always flowers for those who want to see them.
@@ -207,7 +207,7 @@
 			<article class="post-masonry masonry-item masonry-wide isotope-item" data-menu-order="10">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-14-normal-800x600.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-14-normal-800x600.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Look deep into nature.
@@ -225,7 +225,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="11">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-13-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-13-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					But then, birds just fly high
@@ -243,7 +243,7 @@
 			<article class="post-masonry masonry-item masonry-wide isotope-item" data-menu-order="12">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-20-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-20-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					Sometimes too much to drink is barely enough.
@@ -261,7 +261,7 @@
 			<article class="post-masonry masonry-item masonry-normal isotope-item" data-menu-order="13">
 			<div class="post-masonry-inner blog-os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
 				<a class="post-masonry-content swatch-white" href="blog-post.html">
-				<img alt="some image" src="assets/images/uploads/image-05-normal.jpg">
+				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal.jpg">
 				<div class="post-head small-screen-center">
 					<h2 class="post-title bordered bordered-small">
 					No time for games, let’s play.

@@ -19,7 +19,7 @@
 	};
 </script>
 <section id="s1" class="section swatch-black section-text-shadow section-fullheight">
-	<div class="background-media" style="background-image: url('assets/images/uploads/section-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/section-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -80px">
 	</div>
 	<div class="container">
@@ -53,7 +53,7 @@
 	</div>
 </section>
 <section id="s2" class="section swatch-black section-text-shadow section-fullheight">
-	<div class="background-media" style="background-image: url('assets/images/uploads/section-2.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/section-2.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -80px">
 	</div>
 	<div class="container">
@@ -92,7 +92,7 @@
 	</div>
 </section>
 <section id="s3" class="section swatch-black section-fullheight">
-	<div class="background-media" style="background-image: url('assets/images/uploads/section-3.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/section-3.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -80px">
 	</div>
 	<div class="container">
@@ -151,7 +151,7 @@
 	</div>
 </section>
 <section id="s4" class="section swatch-black section-fullheight">
-	<div class="background-media" style="background-image: url('assets/images/uploads/section-4.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/section-4.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -80px">
 	</div>
 	<div class="container">

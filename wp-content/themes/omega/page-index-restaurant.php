@@ -19,7 +19,7 @@
 	};
 </script>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/food-ls-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/food-ls-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -90px">
 	</div>
 	<div class="background-overlay grid-overlay-20 "></div>
@@ -75,7 +75,7 @@
 			<div class="box-dummy"></div>
 			<div class="box-inner grid-overlay-0" style="background-color:#82d10c;">
 				<div class="box-animate" data-animation="bounce">
-				<img class="" src="assets/images/icons/glass-512w.png" alt="a clock" />
+				<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/glass-512w.png" alt="a clock" />
 				</div>
 			</div>
 			</div>
@@ -93,7 +93,7 @@
 			<div class="box-dummy"></div>
 			<div class="box-inner grid-overlay-10" style="background-color:#f04705;">
 				<div class="box-animate" data-animation="bounce">
-				<img class="" src="assets/images/icons/star-512w.png" alt="a gift" />
+				<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/star-512w.png" alt="a gift" />
 				</div>
 			</div>
 			</div>
@@ -111,7 +111,7 @@
 			<div class="box-dummy"></div>
 			<div class="box-inner grid-overlay-10" style="background-color:#edbc07;">
 				<div class="box-animate" data-animation="bounce">
-				<img class="" src="assets/images/icons/music-512w.png" alt="a support" />
+				<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/music-512w.png" alt="a support" />
 				</div>
 			</div>
 			</div>
@@ -129,7 +129,7 @@
 			<div class="box-dummy"></div>
 			<div class="box-inner grid-overlay-10" style="background-color:#a8bed0;">
 				<div class="box-animate" data-animation="bounce">
-				<img class="" src="assets/images/icons/clock-512w.png" alt="a clock" />
+				<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/clock-512w.png" alt="a clock" />
 				</div>
 			</div>
 			</div>
@@ -145,7 +145,7 @@
 	</div>
 </section>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/food-ls-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/food-ls-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50%;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -90px">
 	</div>
 	<div class="background-overlay grid-overlay-20 "></div>
@@ -201,7 +201,7 @@
 		<ul class="features-list  element-no-top element-no-bottom" data-linecolor="#82c9ed" data-os-animation="none" data-os-animation-delay="0s">
 			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon box-animate" style="background-color:#7ec760;" data-animation="">
-				<img src="assets/images/icons/clock-512w.png" alt="clock">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/clock-512w.png" alt="clock">
 			</div>
 			<h3>
 				Preparation
@@ -212,7 +212,7 @@
 			</li>
 			<li class="element-short-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon box-animate" style="background-color:#fe7b70;" data-animation="">
-				<img src="assets/images/icons/sun-512w.png" alt="clock">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/sun-512w.png" alt="clock">
 			</div>
 			<h3>
 				Temperature
@@ -223,7 +223,7 @@
 			</li>
 			<li class="element-short-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<div class="features-list-icon box-animate" style="background-color:#ea9952;" data-animation="">
-				<img src="assets/images/icons/heart-512w.png" alt="clock">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/heart-512w.png" alt="clock">
 			</div>
 			<h3>
 				Calories

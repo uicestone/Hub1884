@@ -11,7 +11,7 @@
 										<li class="clearfix">
 											<div class="post-icon">
 												<a href="blog-post.html" title="The beauty of the world.">
-													<img width="150" height="150" src="assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-08-normal">
+													<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-08-normal">
 												</a>
 											</div>
 											<a href="blog-post.html" title="The beauty of the world.">The beauty of the world.</a>
@@ -22,7 +22,7 @@
 										<li class="clearfix">
 											<div class="post-icon">
 												<a href="blog-post.html" title="Colors are the smiles of nature.">
-													<img width="150" height="150" src="assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
+													<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
 												</a>
 											</div>
 											<a href="blog-post.html" title="Colors are the smiles of nature.">Colors are the smiles of nature.</a>
@@ -33,7 +33,7 @@
 										<li class="clearfix">
 											<div class="post-icon">
 												<a href="blog-post.html" title="Coffee is a language in itself.">
-													<img width="150" height="150" src="assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-03-normal">
+													<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-03-normal">
 												</a>
 											</div>
 											<a href="blog-post.html" title="Coffee is a language in itself.">Coffee is a language in itself.</a>
@@ -153,8 +153,6 @@
 				</section>
 			</footer>
 		</div>
-		<script src="assets/js/packages.min.js"></script>
-		<script src="assets/js/theme.min.js"></script>
-		<script src="assets/js/chart.min.js"></script>
+		<?php wp_footer(); ?>
 	</body>
 </html>

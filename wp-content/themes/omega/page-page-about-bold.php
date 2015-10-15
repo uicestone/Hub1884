@@ -6,7 +6,7 @@
 		<div class="element-no-top element-no-bottom os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<div class="figure  element-no-top element-no-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-top normalwidth">
 			<a href="#" class="figure-image " data-links="" target="_self">
-				<img src="assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
 			</a>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 		<div class="element-no-top element-no-bottom os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<div class="figure  element-no-top element-no-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-top normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 			<a href="#" class="figure-image " data-links="" target="_self">
-				<img src="assets/images/people/image-37-normal.jpg" alt="Chris Doe" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-37-normal.jpg" alt="Chris Doe" class="normalwidth">
 			</a>
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 		<div class="element-no-top element-no-bottom os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<div class="figure  element-no-top element-no-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-top normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 			<a href="#" class="figure-image " data-links="" target="_self">
-				<img src="assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
 			</a>
 			</div>
 		</div>
@@ -109,7 +109,7 @@
 		<div class="element-no-top element-no-bottom os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<div class="figure  element-no-top element-no-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-top normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 			<a href="#" class="figure-image " data-links="" target="_self">
-				<img src="assets/images/people/image-38-normal.jpg" alt="Mary Ann" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-38-normal.jpg" alt="Mary Ann" class="normalwidth">
 			</a>
 			</div>
 		</div>

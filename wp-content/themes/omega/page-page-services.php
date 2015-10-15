@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section id="six" class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -90px">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.4);"></div>
@@ -37,7 +37,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/indicator-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/indicator-512w.png" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -53,7 +53,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/gift-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/gift-512w.png" alt="a gift" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -69,7 +69,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/lifebuoy-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/lifebuoy-512w.png" alt="a support" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -85,7 +85,7 @@
 				<div class="box box-round box-medium box-simple">
 				<div class="box-dummy"></div>
 				<div class="box-inner grid-overlay-0" style="background-color:#353b42;">
-					<img class="" src="assets/images/icons/map-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/map-512w.png" alt="a clock" />
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
@@ -107,7 +107,7 @@
 		<div class="col-md-6 text-right small-screen-center">
 		<div class="figure  element-tall-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -165,7 +165,7 @@
 		<div class="col-md-6">
 		<div class="figure  element-medium-top element-no-bottom os-animation image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-41-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-41-devices.png" alt="" class="normalwidth">
 			</span>
 		</div>
 		</div>
@@ -180,7 +180,7 @@
 			<div class="col-md-6 ">
 			<div class="figure element-medium-top element-no-bottom os-animation text-center" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
 				<span class="figure-image">
-				<img src="assets/images/uploads/image-22-devices.png" alt="Devices">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-22-devices.png" alt="Devices">
 				</span>
 			</div>
 			</div>
@@ -193,7 +193,7 @@
 			<ul class="features-list element-no-top element-no-bottom features-white" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
 				<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<div class="features-list-icon">
-					<img src="assets/images/icons/eye-512.png" alt="Eye Icon" class="">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512.png" alt="Eye Icon" class="">
 				</div>
 				<h3>
 					Retina ready
@@ -204,7 +204,7 @@
 				</li>
 				<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<div class="features-list-icon">
-					<img src="assets/images/icons/idea-512.png" alt="Idea Icon" class="">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512.png" alt="Idea Icon" class="">
 				</div>
 				<h3>
 					Solid 100% Support
@@ -215,7 +215,7 @@
 				</li>
 				<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
 				<div class="features-list-icon">
-					<img src="assets/images/icons/imac-512.png" alt="iMac Icon" class="">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512.png" alt="iMac Icon" class="">
 				</div>
 				<h3>
 					Responsive layout
@@ -237,7 +237,7 @@
 		<div class="col-md-12 text-center">
 		<div class="figure  element-short-top element-no-bottom image-filter-none image-filter-onhover fade-none text-center figcaption-middle normalwidth" data-os-animation="fadeInUp" data-os-animation-delay=".1s">
 			<span class="figure-image">
-			<img src="assets/images/uploads/image-24-devices.jpg" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-24-devices.jpg" class="normalwidth">
 			</span>
 		</div>
 		<div class="row ">
@@ -254,7 +254,7 @@
 	</div>
 </section>
 <section id="six" class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-04-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 0px;" data-start="background-position:50% 0px"
 	 data-70-top-bottom="background-position:50% -90px">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.4);"></div>

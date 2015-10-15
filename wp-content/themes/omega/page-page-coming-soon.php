@@ -52,7 +52,7 @@
 				<div class="box box-round box-normal element-short-top element-short-bottom os-animation">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-0" href="page-service.html" style="background-color:#2c3037;">
-					<img class="" src="assets/images/icons/imac-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="a clock" />
 				</a>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 				<div class="box box-round box-normal">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#2c3037;">
-					<img class="" src="assets/images/icons/idea-512w.png" alt="a gift" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="a gift" />
 				</a>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 				<div class="box box-round box-normal">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#2c3037;">
-					<img class="" src="assets/images/icons/pencil-512w.png" alt="a support" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/pencil-512w.png" alt="a support" />
 				</a>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 				<div class="box box-round box-normal">
 				<div class="box-dummy"></div>
 				<a class="box-inner grid-overlay-10" href="page-service.html" style="background-color:#2c3037;">
-					<img class="" src="assets/images/icons/mug-512w.png" alt="a clock" />
+					<img class="" src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/mug-512w.png" alt="a clock" />
 				</a>
 				</div>
 			</div>
@@ -180,8 +180,8 @@
 </section>
   	</article>
 </div>
-<script src="assets/js/packages.min.js"></script>
-<script src="assets/js/theme.min.js"></script>
-<script src="assets/js/contact.min.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/assets/js/packages.min.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/assets/js/theme.min.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/assets/js/contact.min.js"></script>
 </body>
 </html>

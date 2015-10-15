@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-media" style="background-image: url('assets/images/uploads/image-08-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 40%;" data-start="background-position:"
+	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 40%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
 	</div>
 	<div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
@@ -24,7 +24,7 @@
 			<div class="post-media">
 			<div class="figure  element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 				<a href="assets/images/uploads/image-08-normal.jpg" class="figure-image magnific" data-links="" target="_self">
-				<img src="assets/images/uploads/image-08-normal.jpg" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg" alt="" class="normalwidth">
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -65,12 +65,12 @@
 				<div class="row">
 				<div class="col-md-6">
 					<a class="thumbnail magnific" href="assets/images/uploads/image-14-normal.jpg">
-					<img src="assets/images/uploads/image-14-normal.jpg">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-14-normal.jpg">
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a class="thumbnail magnific" href="assets/images/uploads/image-06-normal.jpg">
-					<img src="assets/images/uploads/image-06-normal.jpg">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal.jpg">
 					</a>
 				</div>
 				</div>
@@ -187,7 +187,7 @@
 					</header>
 					<div class="row">
 					<div class="col-md-4 col-sm-4">
-						<article class="post-related-post" style="background-image: url(assets/images/uploads/image-02-normal-300x200.jpg)">
+						<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-300x200.jpg)">
 						<h4>
 							<a href="blog-post.html">
 							Colors are the smiles of nature.		</a>
@@ -335,7 +335,7 @@
 									<li class="clearfix">
 										<div class="post-icon">
 										<a href="blog-post.html" title="The beauty of the world.">
-											<img width="150" height="150" src="assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail" alt="image-08-normal">
+											<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail" alt="image-08-normal">
 										</a>
 										</div>
 										<a href="blog-post.html" title="The beauty of the world.">
@@ -348,7 +348,7 @@
 									<li class="clearfix">
 										<div class="post-icon">
 										<a href="blog-post.html" title="Colors are the smiles of nature.">
-											<img width="150" height="150" src="assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
+											<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
 										</a>
 										</div>
 										<a href="blog-post.html" title="Colors are the smiles of nature.">
@@ -361,7 +361,7 @@
 									<li class="clearfix">
 										<div class="post-icon">
 										<a href="blog-post.html" title="Coffee is a language in itself.">
-											<img width="150" height="150" src="assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail" alt="image-03-normal">
+											<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail" alt="image-03-normal">
 										</a>
 										</div>
 										<a href="blog-post.html" title="Coffee is a language in itself.">

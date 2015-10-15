@@ -22,7 +22,7 @@
 			<div class="col-md-12">
 				<div class="figure  element-no-top element-short-bottom image-filter-none image-filter-onhover fade-in text-center" data-os-animation="none" data-os-animation-delay="0s">
 				<span class="figure-image">
-					<img src="assets/images/uploads/image-20-normal.jpg" class="normalwidth">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-20-normal.jpg" class="normalwidth">
 				</span>
 				</div>
 				<div class=" element-short-top element-short-bottom" data-os-animation="none" data-os-animation-delay="0s">
@@ -65,7 +65,7 @@
 				<div class="col-md-6">
 					<div class="figure  element-no-top element-short-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 					<span class="figure-image">
-						<img src="assets/images/uploads/image-03-tall.jpg" class="normalwidth">
+						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-tall.jpg" class="normalwidth">
 					</span>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 			<li class="clearfix">
 				<div class="post-icon">
 				<a href="blog-post.html" title="The beauty of the world.">
-					<img width="150" height="150" src="assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail" alt="image-08-normal">
+					<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail" alt="image-08-normal">
 				</a>
 				</div>
 				<a href="blog-post.html" title="The beauty of the world.">
@@ -125,7 +125,7 @@
 			<li class="clearfix">
 				<div class="post-icon">
 				<a href="blog-post.html" title="Colors are the smiles of nature.">
-					<img width="150" height="150" src="assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
+					<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
 				</a>
 				</div>
 				<a href="blog-post.html" title="Colors are the smiles of nature.">
@@ -138,7 +138,7 @@
 			<li class="clearfix">
 				<div class="post-icon">
 				<a href="blog-post.html" title="Coffee is a language in itself.">
-					<img width="150" height="150" src="assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail" alt="image-03-normal">
+					<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail" alt="image-03-normal">
 				</a>
 				</div>
 				<a href="blog-post.html" title="Coffee is a language in itself.">
