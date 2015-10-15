@@ -34,7 +34,7 @@
 			Sections can have background videos. How cool is that?
 			</h2>
 		</header>
-		<a href="/index.html" class="btn btn-link btn-lg element-short-top element-tall-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="1s ">
+		<a href="<?=site_url()?>" class="btn btn-link btn-lg element-short-top element-tall-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="1s ">
 			Learn more
 		</a>
 		</div>

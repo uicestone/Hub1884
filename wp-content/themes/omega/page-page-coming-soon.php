@@ -171,7 +171,7 @@
 	</div>
 	<div class="row element-normal-bottom">
 		<div class="col-md-12  text-center small-screen-default">
-		<a href="index.html" class="btn btn-primary btn-lg element-short-top element-short-bottom" target="_self" data-os-animation="none" data-os-animation-delay="0s ">
+		<a href="<?=site_url()?>" class="btn btn-primary btn-lg element-short-top element-short-bottom" target="_self" data-os-animation="none" data-os-animation-delay="0s ">
 			Go Back Home
 		</a>
 		</div>

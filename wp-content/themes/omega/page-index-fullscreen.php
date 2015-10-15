@@ -173,7 +173,7 @@
 			Built on responsive Bootsrap foundation Omega is designed to look good anywhere!
 			</h1>
 		</header>
-		<a href="index.html" class="btn btn-link btn-lg element-no-top element-short-bottom os-animation" target="_self" data-os-animation="fadeInLeft" data-os-animation-delay="1.5s ">
+		<a href="<?=site_url()?>" class="btn btn-link btn-lg element-no-top element-short-bottom os-animation" target="_self" data-os-animation="fadeInLeft" data-os-animation-delay="1.5s ">
 			back to home
 		</a>
 		</div>

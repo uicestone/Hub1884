@@ -153,6 +153,15 @@
 				</section>
 			</footer>
 		</div>
+		<script type="text/javascript">
+		jQuery(function($){
+			$('#masthead .nav .menu-item-has-children').addClass('dropdown').on('mouseenter', function(){
+				$(this).addClass('open');
+			}).on('mouseleave', function(){
+				$(this).removeClass('open');
+			});
+		});
+		</script>
 		<?php wp_footer(); ?>
 	</body>
 </html>

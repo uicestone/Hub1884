@@ -381,7 +381,7 @@
 		</div>
 		<div class="col-md-3 sidebar">
 		<div class="sidebar-widget  widget_search">
-			<form role="search" method="get" action="index.html">
+			<form role="search" method="get" action="<?=site_url()?>">
 			<div class="input-group">
 				<input type="text" value="" name="s" class="form-control" placeholder="Search">
 				<span class="input-group-btn">

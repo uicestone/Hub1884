@@ -22,10 +22,10 @@ add_action('wp_enqueue_scripts', function(){
 		'revolution'
 	);
 	
-	wp_enqueue_style('google-fonts', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic');
+	wp_enqueue_style('google-fonts', 'http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic');
 	
 	foreach($stylesheets as $stylesheet){
-		wp_register_style($stylesheet, get_stylesheet_directory_uri() . '/assets/css/' . $stylesheet . '.min.css');
+		wp_register_style($stylesheet, get_stylesheet_directory_uri() . '/assets/css/' . $stylesheet . '.css');
 		wp_enqueue_style($stylesheet);
 	}
 	
@@ -37,3 +37,15 @@ add_action('wp_enqueue_scripts', function(){
 	}
 	
 });
+
+class Hub1884_Walker_Nav_Menu extends Walker_Nav_Menu {
+	function start_lvl(&$output, $depth = 0, $args = array()) {
+		$indent = str_repeat("\t", $depth);
+		$output .= "\n$indent<ul class=\"dropdown-menu\">\n";
+	}
+}
+
+add_action('after_setup_theme', function(){
+	register_nav_menu('primary', '主导航');
+});
+

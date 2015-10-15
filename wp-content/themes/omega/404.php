@@ -27,21 +27,21 @@
 		<div class="col-md-12 text-center">
 		<header class="text-default  element-tall-top element-short-bottom not-condensed">
 			<h1 class="hyper hairline bordered bordered-normal">
-			404: PAGE NOT FOUND
+			404: 页面没有找到
 			</h1>
 		</header>
 		<header class="text-default  element-no-top element-no-bottom condensed" data-os-animation="none" data-os-animation-delay="0s">
 			<h2 class="super hairline bordered-normal">
-			keep calm
+			保持冷静
 			</h2>
 		</header>
 		<header class="text-default  element-no-top element-no-bottom condensed" data-os-animation="none" data-os-animation-delay="0s">
 			<h2 class="super hairline bordered-normal">
-			and carry on
+			再次出发
 			</h2>
 		</header>
-		<a href="index.html" class="btn btn-link btn-lg element-medium-top element-medium-bottom" target="_self" data-os-animation="none" data-os-animation-delay="0s ">
-			go back to the home page
+		<a href="<?=site_url()?>" class="btn btn-link btn-lg element-medium-top element-medium-bottom" target="_self" data-os-animation="none" data-os-animation-delay="0s ">
+			返回首页
 			<span>
 			<i class="fa fa-home" data-animation="none"></i>
 			</span>

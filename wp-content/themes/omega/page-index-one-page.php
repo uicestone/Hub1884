@@ -7,7 +7,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<a href="index.html" class="navbar-brand">
+		<a href="<?=site_url()?>" class="navbar-brand">
 		<img src="<?=get_stylesheet_directory_uri()?>/assets/images/omega.gif" alt="One of the best themes ever">Omega
 		</a>
 	</div>
@@ -39,7 +39,7 @@
 			<li><a href="#reviews">Reviews</a>
 			</li>
 			<li class="nav-highlight">
-			<a href="index.html">Back to Normal Omega</a>
+			<a href="<?=site_url()?>">Back to Normal Omega</a>
 			</li>
 		</ul>
 		</div>
