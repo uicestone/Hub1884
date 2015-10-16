@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); the_post(); ?>
 <section class="section swatch-black section-text-shadow section-inner-shadow">
 	<div class="background-media" style="background-image: url('<?=get_stylesheet_directory_uri()?>/assets/images/uploads/home-classic-1.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 60%;" data-start="background-position:"
 	 data-70-top-bottom="background-position:">
@@ -9,7 +9,7 @@
 		<div class="col-md-12">
 		<header class="text-center  element-normal-top element-normal-bottom not-condensed">
 			<h1 class="super hairline bordered bordered-normal os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-			Get to know us better
+				<?php the_title(); ?>
 			</h1>
 		</header>
 		</div>
@@ -22,7 +22,7 @@
 		<div class="col-md-12 text-center">
 		<header class="text-center element-normal-top element-no-bottom not-condensed os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-			Meet the team
+				我们的团队
 			</h1>
 		</header>
 		<div class="row staff-list-container list-container element-short-top element-normal-bottom">
@@ -150,7 +150,7 @@
 		<div class="col-md-12 text-center">
 		<header class="text-center element-normal-top element-no-bottom not-condensed os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-			Testimonials
+				客户评价
 			</h1>
 		</header>
 		<div id="slider-flex47" class="flexslider os-animation element-normal-top element-normal-bottom text-center" data-os-animation="fadeInUp" data-os-animation-delay=".1s" data-flex-speed="7000" data-flex-animation="slide" data-flex-directions="hide" data-flex-controls="show"
@@ -195,7 +195,7 @@
 		<div class="col-md-12">
 		<header class="text-center element-tall-top element-no-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-			Why us?
+				为何选择HUB1884？
 			</h1>
 		</header>
 		<div class="row ">
@@ -333,7 +333,7 @@
 		<div class="col-md-12  text-default small-screen-default">
 		<header class="text-center  element-normal-top element-short-bottom not-condensed os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-			Our Skills
+				我们的数据
 			</h1>
 		</header>
 		</div>

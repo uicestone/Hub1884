@@ -9,7 +9,7 @@
 		<div class="col-md-12 text-center">
 		<header class="blog-header text-left  element-normal-top element-normal-bottom not-condensed" data-os-animation="fadeInUp" data-os-animation-delay=".4s">
 			<h1 class="blog-header-title super hairline medium-top">
-			Our Blog
+				<?php single_cat_title(); ?>
 			</h1>
 		</header>
 		</div>

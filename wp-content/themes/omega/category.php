@@ -87,7 +87,7 @@
 					<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
 						<a href="assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
 						   " target="_self">
-							<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
+							<?php the_post_thumbnail(); ?>
 							<div class="figure-overlay grid-overlay-30">
 							<div class="figure-overlay-container">
 								<div class="figure-caption">
