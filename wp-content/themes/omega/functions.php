@@ -49,3 +49,4 @@ add_action('after_setup_theme', function(){
 	register_nav_menu('primary', '主导航');
 });
 
+add_theme_support('post-thumbnails');

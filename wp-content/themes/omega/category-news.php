@@ -24,8 +24,8 @@
 		<article class="post post-showinfo">
 			<div class="post-media">
 			<div class="figure element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
-				<a class="figure-image" href="blog-post.html">
-				<img alt="some image" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal.jpg">
+				<a class="figure-image" href="<?php the_permalink(); ?>">
+				<?php the_post_thumbnail(); ?>
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -46,7 +46,7 @@
 			</div>
 			<header class="post-head">
 			<h2 class="post-title">
-				<a href="blog-post.html">
+				<a href="<?php?>">
 					<?php the_title(); ?>
 				</a>
 			</h2>
@@ -60,28 +60,19 @@
 			</span>
 			</header>
 			<div class="post-body">
-				<?php the_excerpt(); ?>
+				<?php the_content(); ?>
 			</div>
 		</article>
 		<?php endwhile; ?>
 		<div class="text-center post-showinfo">
-			<ul class="post-navigation pagination">
-			<li class="disabled"><a>‹</a>
-			</li>
-			<li class="active"><span class="current">1</span>
-			</li>
-			<li><a href="blog-classic.html" class="inactive">2</a>
-			</li>
-			<li><a href="blog-classic.html">›</a>
-			</li>
-			</ul>
+			<?=paginate_links(array('type'=>'list', 'prev_text'=>'‹', 'next_text'=>'›'))?>
 		</div>
 		</div>
 		<div class="col-md-3 sidebar">
 		<div class="sidebar-widget  widget_search">
 			<form role="search" method="get" action="<?=site_url()?>">
 			<div class="input-group">
-				<input type="text" value="" name="s" class="form-control" placeholder="Search">
+				<input type="text" value="" name="s" class="form-control" placeholder="搜索">
 				<span class="input-group-btn">
 					<button class="btn" type="submit" value="Search">
 					<i class="fa fa-search"></i>
@@ -92,157 +83,24 @@
 		</div>
 		<div id="recent-posts-3" class="sidebar-widget  widget_recent_entries">
 			<h3 class="sidebar-header">
-			Recent Posts
+				最新资讯
 			</h3>
 			<ul>
-			<li class="clearfix">
-				<div class="post-icon">
-				<a href="blog-post.html" title="The beauty of the world.">
-					<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-150x150.jpg" class="attachment-thumbnail" alt="image-08-normal">
-				</a>
-				</div>
-				<a href="blog-post.html" title="The beauty of the world.">
-				The beauty of the world.
-				</a>
-				<small class="post-date">
-				March 14, 2014
-				</small>
-			</li>
-			<li class="clearfix">
-				<div class="post-icon">
-				<a href="blog-post.html" title="Colors are the smiles of nature.">
-					<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="image-02-normal">
-				</a>
-				</div>
-				<a href="blog-post.html" title="Colors are the smiles of nature.">
-				Colors are the smiles of nature.
-				</a>
-				<small class="post-date">
-				March 1, 2014
-				</small>
-			</li>
-			<li class="clearfix">
-				<div class="post-icon">
-				<a href="blog-post.html" title="Coffee is a language in itself.">
-					<img width="150" height="150" src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-150x150.jpg" class="attachment-thumbnail" alt="image-03-normal">
-				</a>
-				</div>
-				<a href="blog-post.html" title="Coffee is a language in itself.">
-				Coffee is a language in itself.
-				</a>
-				<small class="post-date">
-				February 14, 2014
-				</small>
-			</li>
-			</ul>
-		</div>
-		<div id="categories-3" class="sidebar-widget  widget_categories">
-			<h3 class="sidebar-header">
-			Categories
-			</h3>
-			<ul>
-			<li class="cat-item cat-item-65">
-				<a href="blog-classic.html" title="View all posts filed under About Design">
-				About Design
-				</a>
-			</li>
-			<li class="cat-item cat-item-62">
-				<a href="blog-classic.html" title="View all posts filed under Coffee &amp; more">
-				Coffee &amp; more
-				</a>
-			</li>
-			<li class="cat-item cat-item-47">
-				<a href="blog-classic.html" title="View all posts filed under Nature journal">
-				Nature journal
-				</a>
-			</li>
-			<li class="cat-item cat-item-54">
-				<a href="blog-classic.html" title="View all posts filed under People and more">
-				People and more
-				</a>
-			</li>
-			<li class="cat-item cat-item-1">
-				<a href="blog-classic.html" title="View all posts filed under Uncategorized">
-				Uncategorized
-				</a>
-			</li>
-			<li class="cat-item cat-item-59">
-				<a href="blog-classic.html" title="View all posts filed under Wooden things">
-				Wooden things
-				</a>
-			</li>
-			</ul>
-		</div>
-		<div id="tag_cloud-2" class="sidebar-widget  widget_tag_cloud">
-			<h3 class="sidebar-header">
-			Tags
-			</h3>
-			<div class="tagcloud">
-			<ul>
-				<li>
-				<a href="blog-classic.html">about</a>
+				<?php foreach(get_posts(array('category_name'=>'news')) as $news): ?>
+				<li class="clearfix">
+					<div class="post-icon">
+					<a href="<?=get_the_permalink($news->ID)?>" title="<?=get_the_title($news->id)?>">
+						<?=get_the_post_thumbnail($news->ID, 'thumbnail')?>
+					</a>
+					</div>
+					<a href="<?=get_the_permalink($news->ID)?>" title="<?=get_the_title($news->id)?>">
+						<?=get_the_title($news->id)?>
+					</a>
+					<small class="post-date">
+						<?=$news->post_date?>
+					</small>
 				</li>
-				<li>
-				<a href="blog-classic.html">audio</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">birds</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">cactus</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">calm</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">coffee</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">design</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">field</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">flowers</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">game</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">music</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">nature</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">sky</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">sounds</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">things</a>
-				</li>
-				<li>
-				<a href="blog-classic.html">wood</a>
-				</li>
-			</ul>
-			</div>
-		</div>
-		<div id="archives-3" class="sidebar-widget  widget_archive">
-			<h3 class="sidebar-header">Archives</h3>
-			<ul>
-			<li><a href="blog-classic.html">March 2014</a>
-			</li>
-			<li><a href="blog-classic.html">February 2014</a>
-			</li>
-			<li><a href="blog-classic.html">January 2014</a>
-			</li>
-			<li><a href="blog-classic.html">December 2013</a>
-			</li>
-			<li><a href="blog-classic.html">November 2013</a>
-			</li>
+				<?php endforeach; ?>
 			</ul>
 		</div>
 		</div>

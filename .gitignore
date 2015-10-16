@@ -2,6 +2,7 @@
 .htaccess
 /.idea
 /nbproject
+/sftp-config.json
 /wp-content/uploads
 /wp-content/backup
 /wp-content/cache/
