@@ -8,53 +8,17 @@
 			<ul>
 				<li data-transition="fade" data-slotamount="4" data-link="http://themeforest.net/item/omega-multi-purpose-bootstrap-html-template/8591628">
 				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg1.jpg" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
-				<div class="tp-caption sfl" data-x="80" data-y="70" data-speed="800" data-start="900" data-easing="easeInBack">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-2.png">
-				</div>
 				<div class="tp-caption sfr" data-x="120" data-y="70" data-speed="800" data-start="1500" data-easing="easeInBack">
 					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-3.png">
 				</div>
 				<div class="tp-caption sfb" data-x="100" data-y="60" data-speed="1200" data-start="2000" data-easing="easeInBack">
 					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-center.png">
 				</div>
-				<div class="tp-caption sfl bigger hairline" data-x="120" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c;">
-					Flexible & Responsive
+				<div class="tp-caption sfl bigger hairline" data-x="100" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c;">
+					HUB 1884 是什么？
 				</div>
-				<div class="tp-caption sfl bigger hairline" data-x="157" data-y="230" data-speed="1200" data-start="2100" data-easing="easeInBack" style="color: #4c4c4c;">
-					create your website
-				</div>
-				<div class="tp-caption sfl  bigger hairline" data-x="316" data-y="280" data-speed="1200" data-start="2400" data-easing="easeInBack" style="color: #4c4c4c;">
-					with a style
-				</div>
-				</li>
-				<li data-transition="boxslide" data-slotamount="4" data-link="http://themeforest.net/item/omega-multi-purpose-bootstrap-html-template/8591628">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg2.jpg">
-				<div class="caption sfl" data-x="80" data-y="40" data-speed="600" data-start="1500" data-easing="easeInBack">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-2.png">
-				</div>
-				<div class="caption sfr" data-x="-100" data-y="40" data-speed="600" data-start="2000" data-easing="easeInBack">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-3.png">
-				</div>
-				<div class="caption lfb fadeout" data-x="45" data-y="55" data-speed="1000" data-endspeed="1200" data-start="3500" d data-easing="easeInBack">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-center.png">
-				</div>
-				<div class="caption fade" data-x="-8" data-y="20" data-speed="300" data-start="6000" data-easing="Power4.easeOutCubic">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-2-dev-center-big.png">
-				</div>
-				<div class="caption sfb stt super hairline" data-x="750" data-y="180" data-speed="400" data-endspeed="400" data-start="2000" data-end="4000" data-easing="easeInBack" style="color:#fff">
-					hi there
-				</div>
-				<div class="caption sfb stt super hairline" data-x="750" data-y="180" data-speed="400" data-endspeed="400" data-start="4000" data-end="5500" data-easing="easeInBack" style="color:#fff">
-					this is Omega
-				</div>
-				<div class="caption sfb stt super hairline" data-x="750" data-y="130" data-speed="400" data-start="5500" data-easing="easeInBack">
-					the most
-				</div>
-				<div class="caption sfb stt super hairline" data-x="750" data-y="200" data-speed="400" data-start="5700" data-easing="easeInBack">
-					advanced theme
-				</div>
-				<div class="caption sfb stt super hairline" data-x="750" data-y="270" data-speed="400" data-start="5900" data-easing="easeInBack">
-					we've ever made
+				<div class="tp-caption sfl bigger hairline" data-x="100" data-y="230" data-speed="1200" data-start="2800" data-easing="easeInBack" style="color: rgb(255, 136, 0);font-weight:bold">
+					能够产生无限可能的空间
 				</div>
 				</li>
 			</ul>
@@ -70,8 +34,9 @@
 		<div class="col-md-12">
 		<header class="text-center element-tall-top element-no-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-			Our Services
+				HUB1884
 			</h1>
+			<h2>以人为本的空间，志同道合的伙伴</h2>
 		</header>
 		<div class="row " data-os-animation="" data-os-animation-delay="">
 			<div class="col-md-3 ">
@@ -83,11 +48,9 @@
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
-
-				Powerful panel
-
+				空间
 				</h3>
-				<p class="">Create stunning pages which look great on <strong>any device</strong>. Clean HTML5 and CSS, beautifully coded to make modifications easy!</p>
+				<p class="">集办公、住宿、餐饮于一体的空间</p>
 			</div>
 			</div>
 			<div class="col-md-3 ">
@@ -99,11 +62,9 @@
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
-
-				Stunning pages
-
+				融资
 				</h3>
-				<p class="">Omega is the Most <strong>Flexible</strong> template We Have Ever Made! You can use it to make any kind of web site. Try it today, you wont be disappointed</p>
+				<p class="">HUB1884为入驻的优秀团队提供投资资金和关系网络</p>
 			</div>
 			</div>
 			<div class="col-md-3 ">
@@ -115,11 +76,9 @@
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
-
-				Solid support
-
+				资源
 				</h3>
-				<p class="">With Omega you get a <strong>five star</strong> customer support. As with all our themes you will receive our 100% rock solid support and free updates.</p>
+				<p class="">整合创业服务商，为大家提供优质的增值服务</p>
 			</div>
 			</div>
 			<div class="col-md-3 ">
@@ -131,11 +90,9 @@
 				</div>
 				</div>
 				<h3 class="normal bold bordered bordered-small ">
-
-				Ultra flexible
-
+				导师
 				</h3>
-				<p class="">Omega is ultra flexible and lets you create <strong>stunning</strong> pages easily for any kind of site out of the box. Get started now.</p>
+				<p class="">知名导师与创业者配对，帮助创业项目发展</p>
 			</div>
 			</div>
 		</div>
