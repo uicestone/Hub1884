@@ -4,9 +4,9 @@
 				<section class="section swatch-black">
 					<div class="container">
 						<div class="row element-normal-top element-normal-bottom">
-							<div class="col-md-3">
+							<div class="col-md-5">
 								<div id="recent-posts-4" class="sidebar-widget  widget_recent_entries">
-									<h3 class="sidebar-header">Recent Posts</h3>
+									<h3 class="sidebar-header">资讯分享</h3>
 									<ul>
 										<li class="clearfix">
 											<div class="post-icon">
@@ -46,7 +46,7 @@
 							</div>
 							<div class="col-md-3">
 								<div id="categories-4" class="sidebar-widget  widget_categories">
-									<h3 class="sidebar-header">Categories</h3>
+									<h3 class="sidebar-header">关于我们</h3>
 									<ul>
 										<li class="cat-item cat-item-65">
 											<a href="blog-classic.html" title="View all posts filed under About Design">About Design</a>
@@ -71,7 +71,7 @@
 							</div>
 							<div class="col-md-3">
 								<div id="archives-4" class="sidebar-widget  widget_archive">
-									<h3 class="sidebar-header">Archives</h3>
+									<h3 class="sidebar-header">招聘英才</h3>
 									<ul>
 										<li>
 											<a href="blog-classic.html">March 2014</a>
@@ -89,63 +89,6 @@
 											<a href="blog-classic.html">November 2013</a>
 										</li>
 									</ul>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div id="tag_cloud-3" class="sidebar-widget  widget_tag_cloud">
-									<h3 class="sidebar-header">Tags</h3>
-									<div class="tagcloud">
-										<ul>
-											<li>
-												<a href="blog-classic.html">about</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">audio</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">birds</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">cactus</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">calm</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">coffee</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">design</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">field</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">flowers</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">game</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">music</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">nature</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">sky</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">sounds</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">things</a>
-											</li>
-											<li>
-												<a href="blog-classic.html">wood</a>
-											</li>
-										</ul>
-									</div>
 								</div>
 							</div>
 						</div>

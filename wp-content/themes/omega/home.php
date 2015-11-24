@@ -6,20 +6,20 @@
 		<div class="tp-banner-container">
 			<div class="tp-banner">
 			<ul>
-				<li data-transition="fade" data-slotamount="4" data-link="http://themeforest.net/item/omega-multi-purpose-bootstrap-html-template/8591628">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg1.jpg" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
-				<div class="tp-caption sfr" data-x="120" data-y="70" data-speed="800" data-start="1500" data-easing="easeInBack">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-3.png">
-				</div>
-				<div class="tp-caption sfb" data-x="100" data-y="60" data-speed="1200" data-start="2000" data-easing="easeInBack">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-center.png">
-				</div>
-				<div class="tp-caption sfl bigger hairline" data-x="100" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c;">
-					HUB 1884 是什么？
-				</div>
-				<div class="tp-caption sfl bigger hairline" data-x="100" data-y="230" data-speed="1200" data-start="2800" data-easing="easeInBack" style="color: rgb(255, 136, 0);font-weight:bold">
-					能够产生无限可能的空间
-				</div>
+				<li data-transition="fade" data-slotamount="4">
+					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg1.jpg" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
+					<div class="tp-caption sfr" data-x="120" data-y="70" data-speed="800" data-start="1500" data-easing="easeInBack">
+						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-3.png">
+					</div>
+					<div class="tp-caption sfb" data-x="100" data-y="60" data-speed="1200" data-start="2000" data-easing="easeInBack">
+						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-center.png">
+					</div>
+					<div class="tp-caption sfl bigger hairline" data-x="100" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c;">
+						HUB 1884 是什么？
+					</div>
+					<div class="tp-caption sfl bigger hairline" data-x="100" data-y="230" data-speed="1200" data-start="2800" data-easing="easeInBack" style="color: rgb(255, 136, 0);font-weight:bold">
+						能够产生无限可能的空间
+					</div>
 				</li>
 			</ul>
 			</div>
@@ -107,7 +107,7 @@
 		<div class="col-md-12">
 		<header class="text-center element-tall-top element-medium-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-			Our Work
+			HUB1884门店
 			</h1>
 		</header>
 		<div class="portfolio-container element-short-top element-no-bottom">
@@ -248,7 +248,7 @@
 		<div class="col-md-12">
 		<header class="text-center element-tall-top element-no-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-			What we do best
+			 独一无二的优势
 			</h1>
 		</header>
 		</div>
@@ -306,252 +306,17 @@
 		<div class="col-md-12 text-center">
 		<header class="text-center element-tall-top element-medium-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered-normal">
-			Welcome to our company. We are a digital design agency passionate about pixel perfection.
+			马上扫码关注/下载APP，了解最新机会
 			</h1>
 		</header>
-		<a href="contact-big-map.html" class="btn btn-primary btn-lg element-short-top element-normal-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+		<!-- <a href="contact-big-map.html" class="btn btn-primary btn-lg element-short-top element-normal-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			Let's work together
-		</a>
+		</a> -->
 		</div>
 	</div>
 	</div>
 </section>
-<section id="two" class="section swatch-white">
-	<div class="container">
-	<div class="row">
-		<div class="col-md-12 text-center">
-		<header class="text-center element-normal-top element-no-bottom not-condensed os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
-			<h1 class="bigger hairline bordered bordered-normal">
-			Our team
-			</h1>
-		</header>
-		<div class="row staff-list-container list-container element-short-top element-normal-bottom">
-			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".1s">
-			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
-				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-16-normal.jpg" alt="Jane Doe" class="normalwidth">
-				<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-					<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-					</span>
-					</div>
-				</div>
-				</a>
-				<div class="figure-caption text-center">
-				<h3 class="figure-caption-title bordered bordered-small ">
-					<strong>Jane Doe</strong> 
-					<span>Designer</span>					
-				</h3>
-				<p class="figure-caption-description">In the center of the roof was a great light, as bright as the sun, which made the emeralds sparkle in a wonderful manner.</p>
-				</div>
-			</div>
-			<ul class="social-icons element-short-top element-short-bottom text-center">
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#3b5998">
-					<i class="fa fa-linkedin"></i>
-				</a>
-				</li>
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#00acee">
-					<i class="fa fa-twitter"></i>
-				</a>
-				</li>
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#ea4c89">
-					<i class="fa fa-facebook"></i>
-				</a>
-				</li>
-			</ul>
-			</div>
-			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".2s">
-			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
-				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-17-normal1.jpg" alt="Jim Doe" class="normalwidth">
-				<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-					<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-					</span>
-					</div>
-				</div>
-				</a>
-				<div class="figure-caption text-center">
-				<h3 class="figure-caption-title bordered bordered-small ">
-					<strong>Jim Doe</strong> 
-					<span>CEO</span>					
-				</h3>
-				<p class="figure-caption-description">Just then a bell rang, and the green girl said to Dorothy, &quot;That is the signal. You must go into the Throne Room alone.</p>
-				</div>
-			</div>
-			<ul class="social-icons element-short-top element-short-bottom text-center">
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#5FB0D5">
-					<i class="fa fa-twitter"></i>
-				</a>
-				</li>
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#ea4c89">
-					<i class="fa fa-linkedin"></i>
-				</a>
-				</li>
-			</ul>
-			</div>
-			<div class="col-md-4 staff-os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s">
-			<div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle" data-os-animation="fadeIn" data-os-animation-delay=".0s">
-				<a href="page-about-me.html" class="figure-image" data-links="" target="_self">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/people/image-15-normal.jpg" alt="Sue Smith" class="normalwidth">
-				<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-					<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-					</span>
-					</div>
-				</div>
-				</a>
-				<div class="figure-caption text-center">
-				<h3 class="figure-caption-title bordered bordered-small ">
-					<strong>Sue Smith</strong> 
-					<span>Founder</span>					
-				</h3>
-				<p class="figure-caption-description">These people had nothing to do but talk to each other, but they always came to wait outside the Throne Room every morning.</p>
-				</div>
-			</div>
-			<ul class="social-icons element-short-top element-short-bottom text-center">
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#ea4c89">
-					<i class="fa fa-linkedin"></i>
-				</a>
-				</li>
-				<li>
-				<a href="page-about-me.html3b5998" target="_self" data-iconcolor="#00acee">
-					<i class="fa fa-twitter"></i>
-				</a>
-				</li>
-				<li>
-				<a href="page-about-me.html" target="_self" data-iconcolor="#5FB0D5">
-					<i class="fa fa-facebook"></i>
-				</a>
-				</li>
-			</ul>
-			</div>
-		</div>
-		</div>
-	</div>
-	</div>
-</section>
-<section class="section swatch-black section-text-shadow section-inner-shadow">
-	<div class="background-overlay grid-overlay-0 " style="background-color: rgba(46,51,57,1);"></div>
-	<div class="container">
-	<div class="row">
-		<div class="col-md-12 text-center">
-		<header class="text-center  element-normal-top element-medium-bottom condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-			<h1 class="bigger hairline bordered bordered-normal">
-			Recent News
-			</h1>
-		</header>
-		<div class=" row element-short-top element-normal-bottom recent-simple-os-container">
-			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-300x200.jpg)">
-				<h4>
-				<a href="blog-post.html">
-					The beauty of the world.
-				</a>
-				<small>
-					by Christos Pantazis		
-				</small>
-				</h4>
-			</article>
-			</div>
-			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-				<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-300x200.jpg)">
-				<h4>
-				<a href="blog-post.html">
-					Colors are the smiles of nature.
-				</a>
-				<small>
-					by Manos Proistakis		
-				</small>
-				</h4>
-			</article>
-			</div>
-			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-300x200.jpg)">
-				<h4>
-				<a href="blog-post.html">
-					Coffee is a language in itself.
-				</a>
-				<small>
-					by Christos Pantazis		
-				</small>
-				</h4>
-			</article>
-			</div>
-			<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-			<article class="post-related-post" style="background-image: url(<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-300x200.jpg)">
-				<h4>
-				<a href="blog-post.html">
-					Do Lipton employees take coffee breaks?
-				</a>
-				<small>
-					by Christos Pantazis		
-				</small>
-				</h4>
-			</article>
-			</div>
-		</div>
-		</div>
-	</div>
-	</div>
-</section>
-<section id="two" class="section swatch-white">
-	<div class="container">
-	<div class="row">
-		<div class="col-md-12 text-center">
-		<div id="slider-flex1" class="flexslider os-animation element-short-top element-short-bottom" data-flex-speed="7000" data-flex-duration="600" data-flex-itemwidth="185pxpx" data-flex-animation="slide" data-flex-controls="show" data-flex-directions="hide"
-			 data-flex-controlsalign="center" data-flex-captionhorizontal="left" data-flex-controlsposition="outside" data-flex-sliderdirection="horizontal" data-flex-controlsvertical="bottom">
-			<ul class="slides">
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-27-client.png" alt="some alt" data-original-title="RocketPunch" data-toggle="tooltip">
-				</figure>
-			</li>
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-28-client.png" alt="some alt" data-original-title="ThemeArt" data-toggle="tooltip">
-				</figure>
-			</li>
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-29-client.png" alt="some alt" data-original-title="Showbiz" data-toggle="tooltip">
-				</figure>
-			</li>
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-30-client.png" alt="some alt" data-original-title="Nut Themes" data-toggle="tooltip">
-				</figure>
-			</li>
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-31-client.png" alt="some alt" data-original-title="Glory Themes" data-toggle="tooltip">
-				</figure>
-			</li>
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-32-client.png" alt="some alt" data-original-title="Guitar Plants" data-toggle="tooltip">
-				</figure>
-			</li>
-			<li>
-				<figure>
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/clients/image-33-client.png" alt="some alt" data-original-title="Ninja Turtle" data-toggle="tooltip">
-				</figure>
-			</li>
-			</ul>
-		</div>
-		</div>
-	</div>
-	</div>
-</section>
+
 <script type="text/javascript">
 jQuery(document).ready(function()
 {

@@ -18,7 +18,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a href="<?=site_url()?>" class="navbar-brand">
-						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/omega.gif" alt="One of the best themes ever">Omega
+						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/hub1884.jpg" alt="One of the best themes ever" style="width:160px">
 					</a>
 				</div>
 				<nav class="collapse navbar-collapse main-navbar" role="navigation">
