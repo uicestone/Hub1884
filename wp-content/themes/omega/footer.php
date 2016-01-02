@@ -5,7 +5,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 text-center" style="line-height: 96px;">
-								沪ICP备2016000001 HUB1884+&copy;
+								<?=get_option('zh_cn_l10n_icp_num')?> HUB1884+&copy;
 							</div>
 						</div>
 					</div>

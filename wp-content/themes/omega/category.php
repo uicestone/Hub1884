@@ -28,16 +28,17 @@
 						<a href="<?php the_permalink(); ?>" class="figure-image magnific" data-links="" target="_self">
 							<?php the_post_thumbnail(); ?>
 							<div class="figure-overlay grid-overlay-30">
-							<div class="figure-overlay-container">
-								<div class="figure-caption">
-								<p class="figure-caption-description">
-									<?php the_excerpt(); ?>
-								</p>
+								<div class="figure-overlay-container">
+									<div class="figure-caption">
+										<p class="figure-caption-description">
+											<?php the_excerpt(); ?>
+										</p>
+									</div>
 								</div>
-							</div>
 							</div>
 						</a>
 					</div>
+					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 				</div>
 				<?php endwhile; ?>
 			</div>
