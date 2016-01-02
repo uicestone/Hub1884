@@ -4004,10 +4004,6 @@ input[type=number] {
   margin-bottom: 18px;
 }
 
-#masthead .dropdown-menu {
-  min-width: 220px;
-}
-
 #masthead .search-close {
   top: 0;
   height: 90px;
@@ -4134,6 +4130,7 @@ input[type=number] {
   padding-top: 0;
   padding-bottom: 0;
   border: 0;
+  right: auto;
 }
 #masthead .dropdown-menu > li > a {
   font-size: 14px;
@@ -4393,6 +4390,7 @@ input[type=number] {
   #masthead .dropdown-menu {
     margin: 0;
     width: 100%;
+    right: auto;
   }
   #masthead .dropdown-menu > li > a {
     padding-left: 15px;

@@ -1,9 +1,9 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: STHeiti, 'Microsoft Yahei UI', 'Microsoft Yahei', Helvetica, sans-serif;
   font-weight: 400;
 }
 body input, body textarea, body .btn, body button {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: STHeiti, 'Microsoft Yahei UI', 'Microsoft Yahei', Helvetica, sans-serif;
 }
 
 blockquote p {
@@ -22,7 +22,7 @@ blockquote p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: STHeiti, 'Microsoft Yahei UI', 'Microsoft Yahei', Helvetica, sans-serif;
   font-weight: 600;
 }
 

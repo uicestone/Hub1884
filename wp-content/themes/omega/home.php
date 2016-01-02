@@ -7,17 +7,11 @@
 			<div class="tp-banner">
 			<ul>
 				<li data-transition="fade" data-slotamount="4">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-slider-bg1.jpg" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
-					<div class="tp-caption sfr" data-x="120" data-y="70" data-speed="800" data-start="1500" data-easing="easeInBack">
-						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-3.png">
-					</div>
-					<div class="tp-caption sfb" data-x="100" data-y="60" data-speed="1200" data-start="2000" data-easing="easeInBack">
-						<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/slide-1-dev-center.png">
-					</div>
-					<div class="tp-caption sfl bigger hairline" data-x="100" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c;">
+					<img src="http://images.adsttc.com/media/images/5287/118b/e8e4/4ea3/db00/0069/large_jpg/_Y5C6989.jpg?1384583516" data-kenburns="on" data-bgposition="left bottom" data-bgpositionend="center bottom" data-bgfit="110" data-bgfitend="100" data-duration="7000" data-ease="Power4.easeOutCubic">
+					<div class="tp-caption sfl bigger hairline" data-x="100" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack" style="color: #4c4c4c; text-shadow: 0 0 10px white;">
 						HUB 1884 是什么？
 					</div>
-					<div class="tp-caption sfl bigger hairline" data-x="100" data-y="230" data-speed="1200" data-start="2800" data-easing="easeInBack" style="color: rgb(255, 136, 0);font-weight:bold">
+					<div class="tp-caption sfl bigger hairline" data-x="100" data-y="230" data-speed="1200" data-start="2800" data-easing="easeInBack" style="color: rgb(255, 136, 0); font-weight:bold; text-shadow: 0 0 10px white;">
 						能够产生无限可能的空间
 					</div>
 				</li>
@@ -107,135 +101,28 @@
 		<div class="col-md-12">
 		<header class="text-center element-tall-top element-medium-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-			HUB1884门店
+				HUB1884门店
 			</h1>
 		</header>
 		<div class="portfolio-container element-short-top element-no-bottom">
 			<div class="portfolio masonry " data-padding="2" data-col-xs="2" data-col-sm="3" data-col-md="4" data-col-lg="4" data-layout="fitRows">
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="1" data-title="Coffee and Biscuits">
+			<?php foreach(get_posts('category_name=门店') as $index => $post): ?>
+			<div class="masonry-item portfolio-item isotope-item" data-menu-order="<?=$index + 1?>" data-title="<?=get_the_title($post->ID)?>">
 				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
-					<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg" class="figure-image magnific" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal-800x600.jpg" alt="Coffee and Biscuits" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
+					<a href="<?=get_the_permalink($post->ID)?>" class="figure-image" data-links="" target="_self">
+						<?=get_the_post_thumbnail($post->ID, 'post-thumbnail', array('class'=>'normalwidth'))?>
+						<div class="figure-overlay grid-overlay-20">
+							<div class="figure-overlay-container">
+								<h1><?=get_the_title($post->ID)?></h1>
+ 								<!--<span class="figure-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
+								</span> -->
+							</div>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="2" data-title="Cactus Love">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
-				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal.jpg" class="figure-image magnific" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-06-normal-800x600.jpg" alt="Cactus Love" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="3" data-title="Colors galore">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
-				<a href="http://www.youtube.com/watch?v=-zOrV-5vh1A" class="figure-image magnific-vimeo" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-02-normal-800x600.jpg" alt="Colors galore" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="4" data-title="Playful mood">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
-				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal.jpg" class="figure-image magnific" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-05-normal-800x600.jpg" alt="Playful mood" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="5" data-title="Vinyl music">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
-				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal.jpg" class="figure-image magnific" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-07-normal-800x600.jpg" alt="Vinyl music" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="6" data-title="Summer field">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.5s">
-				<a href="http://vimeo.com/78567595" class="figure-image magnific-vimeo" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-08-normal-800x600.jpg" alt="Summer field" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="7" data-title="Red coffee">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.8s">
-				<a href="" class="figure-image magnific-gallery" data-links="
-
-				   <?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-03-normal.jpg,
-
-				   <?=get_stylesheet_directory_uri()?>/assets/images/uploads/rev-image-20-normal.jpg
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-09-normal-800x600.jpg" alt="Red coffee" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
-			<div class="masonry-item portfolio-item isotope-item" data-menu-order="8" data-title="Vintage building">
-				<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-grayscale fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
-				<a href="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal.jpg" class="figure-image magnific" data-links="
-				   " target="_self">
-					<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-10-normal-800x600.jpg" alt="Vintage building" class="normalwidth">
-					<div class="figure-overlay grid-overlay-20">
-					<div class="figure-overlay-container">
-						<span class="figure-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>				
-						</span>
-					</div>
-					</div>
-				</a>
-				</div>
-			</div>
+			<?php endforeach; ?>
 			</div>
 		</div>
 		</div>
@@ -248,53 +135,19 @@
 		<div class="col-md-12">
 		<header class="text-center element-tall-top element-no-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-			 独一无二的优势
+			 	独一无二的优势
 			</h1>
 		</header>
 		</div>
 		<div class="col-md-6">
 		<div class="figure element-short-top element-short-bottom os-animation image-filter-none image-filter-onhover text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
 			<span class="figure-image">
-			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/uploads/image-40-devices.png" alt="" class="normalwidth">
+			<img src="<?=get_stylesheet_directory_uri()?>/assets/images/hub1884.jpg" alt="" class="normalwidth" style="width: 70%; margin-top: 160px;">
 			</span>
 		</div>
 		</div>
 		<div class="col-md-6">
-		<ul class="features-list element-tall-top element-no-bottom features-dark" data-linecolor="" data-os-animation="none" data-os-animation-delay="0s">
-			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-			<div class="features-list-icon">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/eye-512w.png" alt="Eye Icon" class="">
-			</div>
-			<h3>
-				Retina ready
-			</h3>
-			<p>
-				Omega is designed with the latest technologies so that your website will look sharp and stunning even on high resolution retina displays.
-			</p>
-			</li>
-			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-			<div class="features-list-icon">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/idea-512w.png" alt="Idea Icon" class="">
-			</div>
-			<h3>
-				Solid 100% Support
-			</h3>
-			<p>
-				As usual with all of our themes you will receive our 100% support, should you need any help.
-			</p>
-			</li>
-			<li class="element-no-top element-short-bottom os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-			<div class="features-list-icon">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/icons/imac-512w.png" alt="iMac Icon" class="">
-			</div>
-			<h3>
-				Responsive layout
-			</h3>
-			<p>
-				This Theme has a fully responsive layout. It will respond and fit to a large desktop, tablet screens and all the way down to a mobile sized display.
-			</p>
-			</li>
-		</ul>
+			<?=do_shortcode(wpautop(get_posts('name=优势')[0]->post_content))?>
 		</div>
 	</div>
 	</div>
@@ -306,7 +159,7 @@
 		<div class="col-md-12 text-center">
 		<header class="text-center element-tall-top element-medium-bottom os-animation condensed" data-os-animation="fadeIn" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered-normal">
-			马上扫码关注/下载APP，了解最新机会
+				马上扫码关注/下载APP，了解最新机会
 			</h1>
 		</header>
 		<!-- <a href="contact-big-map.html" class="btn btn-primary btn-lg element-short-top element-normal-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="0s">

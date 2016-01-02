@@ -50,3 +50,9 @@ add_action('after_setup_theme', function(){
 });
 
 add_theme_support('post-thumbnails');
+
+add_shortcode('site_url', function(){
+	return site_url();
+});
+
+add_filter('show_admin_bar', '__return_false');
