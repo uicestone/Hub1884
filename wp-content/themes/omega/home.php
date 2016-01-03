@@ -162,6 +162,7 @@
 				马上扫码关注/下载APP，了解最新机会
 			</h1>
 		</header>
+		<img class="element-normal-bottom" src="<?=get_stylesheet_directory_uri()?>/assets/images/qrcode.jpg" style="max-width: 200px;box-shadow: 2px 2px 10px black;border-radius: 5px;">
 		<!-- <a href="contact-big-map.html" class="btn btn-primary btn-lg element-short-top element-normal-bottom os-animation" target="_self" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			Let's work together
 		</a> -->
