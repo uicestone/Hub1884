@@ -104,7 +104,7 @@
 			<div class="col-md-6">
 			<div class="figure element-no-top element-short-bottom os-animation image-filter-none image-filter-onhover text-center figcaption-middle normalwidth" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
 				<span class="figure-image">
-				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/hub1884.jpg" alt="" class="normalwidth">
+				<img src="<?=get_stylesheet_directory_uri()?>/assets/images/hub1884.jpg" alt="" class="normalwidth" style="width: 70%; margin-top: 160px;">
 				</span>
 			</div>
 			</div>
