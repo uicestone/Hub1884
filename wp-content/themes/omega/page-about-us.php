@@ -43,7 +43,7 @@
 		<div class="col-md-12 text-center">
 		<header class="text-center element-normal-top element-no-bottom not-condensed os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
 			<h1 class="bigger hairline bordered bordered-normal">
-				我们的团队
+				创始人
 			</h1>
 		</header>
 		<div class="row staff-list-container list-container element-short-top element-normal-bottom">
