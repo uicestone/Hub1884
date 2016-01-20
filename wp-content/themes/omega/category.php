@@ -25,7 +25,7 @@
 				<?php while(have_posts()): the_post(); ?>
 				<div class="masonry-item portfolio-item isotope-item filter-masonry filter-nature" data-menu-order="1" data-title="Coffee and Biscuits">
 					<div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
-						<a href="<?php the_permalink(); ?>" class="figure-image magnific" data-links="" target="_self">
+						<a href="<?php the_permalink(); ?>" class="figure-image" data-links="" target="_self">
 							<?php the_post_thumbnail(); ?>
 							<div class="figure-overlay grid-overlay-30">
 								<div class="figure-overlay-container">
