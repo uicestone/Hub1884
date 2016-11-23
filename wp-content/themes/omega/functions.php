@@ -22,8 +22,6 @@ add_action('wp_enqueue_scripts', function(){
 		'revolution'
 	);
 	
-	wp_enqueue_style('google-fonts', 'http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic');
-	
 	foreach($stylesheets as $stylesheet){
 		wp_register_style($stylesheet, get_stylesheet_directory_uri() . '/assets/css/' . $stylesheet . '.css');
 		wp_enqueue_style($stylesheet);
