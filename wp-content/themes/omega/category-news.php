@@ -25,7 +25,7 @@
 			<div class="post-media">
 			<div class="figure element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 				<a class="figure-image" href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail(); ?>
+					<?php the_post_thumbnail(); ?>
 					<div class="figure-overlay grid-overlay-0">
 					<div class="figure-overlay-container">
 						<span class="figure-icon">
@@ -46,17 +46,16 @@
 			</div>
 			<header class="post-head">
 			<h2 class="post-title">
-				<a href="<?php?>">
+				<a href="<?php the_permalink() ?>">
 					<?php the_title(); ?>
 				</a>
 			</h2>
 			<small>
-				<a href="blog-classic.html"><?php the_author(); ?></a>
+				<?php the_author(); ?>
 				<?php the_date(); ?>
-				<!-- <a href="blog-post.html">2 comments</a> -->
 			</small>
 			<span class="post-icon">
-				<i class="fa fa-picture-o"></i>
+				<?php the_post_thumbnail('thumbnail'); ?>
 			</span>
 			</header>
 			<div class="post-body">
