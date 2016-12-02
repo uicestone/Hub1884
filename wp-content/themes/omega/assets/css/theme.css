@@ -8476,6 +8476,12 @@ textarea.ginput_container input, textarea.ginput_container select, textarea.ginp
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
+  background: none !important;
+}
+.post-showinfo .post-icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .post-showinfo:after {
   left: 72px;
